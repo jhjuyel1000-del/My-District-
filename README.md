@@ -1,4 +1,6 @@
-# বাংলাদেশ ভ্রমণ ম্যাপ
+# আমার জেলা — My District
+
+বাংলাদেশের district-first tourism map card maker। Initial release includes ৮টি district, researched visitor-place lists, actual district vectors, selected-place markers, photo/name/signature card fields, and local PNG/JPG/PDF/share actions.
 
 React / Express / tRPC / Drizzle starter, adapted from the Sandbox web-db-user template.
 
