@@ -1,25 +1,68 @@
-import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
-import { Streamdown } from 'streamdown';
+import { useMemo, useRef, useState } from "react";
+import { Download, FileImage, FileText, Map, Menu, Search, Sparkles, Trophy, X } from "lucide-react";
 
-/**
- * All content in this page are only for example, replace with your own feature implementation
- * When building pages, remember your instructions in Frontend Workflow, Frontend Best Practices, Design Guide and Common Pitfalls
- */
+const divisions: Record<string, string[]> = {
+  "ঢাকা বিভাগ": ["কিশোরগঞ্জ","গাজীপুর","গোপালগঞ্জ","টাঙ্গাইল","ঢাকা","নরসিংদী","নারায়ণগঞ্জ","ফরিদপুর","মাদারীপুর","মানিকগঞ্জ","মুন্সীগঞ্জ","রাজবাড়ী","শরীয়তপুর"],
+  "চট্টগ্রাম বিভাগ": ["কক্সবাজার","কুমিল্লা","খাগড়াছড়ি","চট্টগ্রাম","চাঁদপুর","নোয়াখালী","ফেনী","বান্দরবান","ব্রাহ্মণবাড়িয়া","রাঙ্গামাটি","লক্ষ্মীপুর"],
+  "সিলেট বিভাগ": ["মৌলভীবাজার","সিলেট","সুনামগঞ্জ","হবিগঞ্জ"],
+  "বরিশাল বিভাগ": ["ঝালকাঠি","পটুয়াখালী","পিরোজপুর","বরগুনা","বরিশাল","ভোলা"],
+  "খুলনা বিভাগ": ["কুষ্টিয়া","খুলনা","চুয়াডাঙ্গা","ঝিনাইদহ","নড়াইল","বাগেরহাট","মাগুরা","মেহেরপুর","যশোর","সাতক্ষীরা"],
+  "রাজশাহী বিভাগ": ["চাঁপাইনবাবগঞ্জ","জয়পুরহাট","নওগাঁ","নাটোর","পাবনা","বগুড়া","রাজশাহী","সিরাজগঞ্জ"],
+  "রংপুর বিভাগ": ["কুড়িগ্রাম","গাইবান্ধা","ঠাকুরগাঁও","দিনাজপুর","নীলফামারী","পঞ্চগড়","রংপুর","লালমনিরহাট"],
+  "ময়মনসিংহ বিভাগ": ["জামালপুর","নেত্রকোণা","ময়মনসিংহ","শেরপুর"]
+};
+const allDistricts = Object.values(divisions).flat();
+const countries = ["বাংলাদেশ","ভারত","নেপাল","ভুটান","শ্রীলঙ্কা","থাইল্যান্ড","মালয়েশিয়া","সিঙ্গাপুর","ইন্দোনেশিয়া","জাপান","দক্ষিণ কোরিয়া","তুরস্ক","ইতালি","ফ্রান্স","যুক্তরাজ্য","অস্ট্রেলিয়া","কানাডা","যুক্তরাষ্ট্র","মিশর","দক্ষিণ আফ্রিকা"];
+const themes = ["mint","ocean","sunset","sky","forest"];
+const themeNames = ["পান্না","নীল-বেগুনি","গোধূলি","সাগর","সবুজ রাত"];
+const guideData = [
+  { name:"কক্সবাজার", tag:"সমুদ্র", emoji:"🌊", places:"লাবণী পয়েন্ট · হিমছড়ি · ইনানী", route:"ঢাকা থেকে বাস/ফ্লাইট", cost:"৳৩,০০০–৬,০০০/দিন", stay:"সমুদ্রের কাছে হোটেল", food:"শুঁটকি, মেজবান", note:"জোয়ার-ভাটা ও আবহাওয়া দেখে ঘুরুন।" },
+  { name:"সিলেট", tag:"চা-বাগান", emoji:"🍃", places:"জাফলং · রাতারগুল · লালাখাল", route:"ট্রেন/বাস বা ফ্লাইট", cost:"৳২,৫০০–৫,০০০/দিন", stay:"শহর বা জাফলং রিসোর্ট", food:"সাতকড়া, চা", note:"বর্ষায় জলাভূমি দুর্দান্ত, তবে নৌকা নিরাপত্তা মানুন।" },
+  { name:"বান্দরবান", tag:"পাহাড়", emoji:"⛰️", places:"নীলগিরি · বগালেক · স্বর্ণমন্দির", route:"চট্টগ্রাম হয়ে বাস", cost:"৳৩,০০০–৭,০০০/দিন", stay:"রিসোর্ট/কটেজ", food:"বাঁশে রান্না", note:"দুর্গম রুটে স্থানীয় গাইড ও সরকারি নির্দেশনা নিন।" },
+  { name:"রাজশাহী", tag:"ঐতিহ্য", emoji:"🥭", places:"পুঠিয়া · পদ্মার পাড় · বরেন্দ্র জাদুঘর", route:"ট্রেন/বাস", cost:"৳১,৮০০–৪,০০০/দিন", stay:"শহরের হোটেল", food:"আম, কালাই রুটি", note:"গ্রীষ্মে দুপুরের রোদ এড়িয়ে সকালের ভ্রমণ করুন।" }
+];
+
+function downloadMap(kind: "png" | "jpg" | "pdf", title: string, count: number, theme: string) {
+  if (kind === "pdf") { window.print(); return; }
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760"><rect width="100%" height="100%" fill="${theme === "sunset" ? "#fff1ea" : theme === "ocean" ? "#eef7ff" : "#effaf3"}"/><text x="80" y="110" font-family="Arial" font-size="42" font-weight="bold" fill="#173c31">আমার বাংলাদেশ</text><text x="80" y="160" font-family="Arial" font-size="22" fill="#527267">ভ্রমণ করা জেলা: ${count}/৬৪</text><path d="M230 260 L560 220 L820 320 L780 560 L470 640 L250 500Z" fill="#b7d9c6" stroke="#0f7a5c" stroke-width="10"/><circle cx="530" cy="380" r="22" fill="#f07c64"/><text x="80" y="710" font-family="Arial" font-size="18" fill="#527267">পথের খাতা · ${new Date().toLocaleDateString("bn-BD")}</text></svg>`;
+  const blob = new Blob([svg], { type: "image/svg+xml" }); const url = URL.createObjectURL(blob); const a = document.createElement("a"); a.href = url; a.download = `amar-bangladesh.${kind}`; a.click(); URL.revokeObjectURL(url);
+}
+
 export default function Home() {
-  // If theme is switchable in App.tsx, we can implement theme toggling like this:
-  // const { theme, toggleTheme } = useTheme();
+  const [selected, setSelected] = useState<string[]>(() => JSON.parse(localStorage.getItem("bd-selected") || "[]"));
+  const [worldSelected, setWorldSelected] = useState<string[]>([]);
+  const [theme, setTheme] = useState("mint");
+  const [query, setQuery] = useState(""); const [countryQuery, setCountryQuery] = useState("");
+  const [labels, setLabels] = useState(true); const [name, setName] = useState(""); const [photo, setPhoto] = useState<string | null>(null);
+  const [activeGuide, setActiveGuide] = useState<typeof guideData[number] | null>(null);
+  const [quizScore, setQuizScore] = useState(0); const [quizIndex, setQuizIndex] = useState(0); const [puzzle, setPuzzle] = useState<string[]>([]);
+  const [start, setStart] = useState("ঢাকা"); const [plan, setPlan] = useState<string[]>([]); const [menu, setMenu] = useState(false);
+  const mapRef = useRef<HTMLDivElement>(null);
+  const toggleDistrict = (d: string) => setSelected(v => { const next = v.includes(d) ? v.filter(x => x !== d) : [...v, d]; localStorage.setItem("bd-selected", JSON.stringify(next)); return next; });
+  const selectDivision = (ds: string[]) => setSelected(v => { const all = ds.every(d => v.includes(d)); const next = all ? v.filter(d => !ds.includes(d)) : [...new Set([...v, ...ds])]; localStorage.setItem("bd-selected", JSON.stringify(next)); return next; });
+  const filtered = useMemo(() => allDistricts.filter(d => d.includes(query)), [query]);
+  const filteredCountries = countries.filter(c => c.includes(countryQuery));
+  const quiz = [{q:"বাংলাদেশের সবচেয়ে দীর্ঘ সমুদ্রসৈকত কোথায়?", a:"কক্সবাজার", opts:["কুয়াকাটা","কক্সবাজার","সেন্টমার্টিন"]},{q:"রাতারগুল কোন জেলায়?", a:"সিলেট", opts:["সিলেট","সুনামগঞ্জ","হবিগঞ্জ"]},{q:"বাংলাদেশের চা-বাগানের জন্য বিখ্যাত অঞ্চল?", a:"সিলেট", opts:["রাজশাহী","সিলেট","বরিশাল"]}];
+  const answerQuiz = (a: string) => { if(a === quiz[quizIndex].a) setQuizScore(x => x + 10); setQuizIndex(x => (x + 1) % quiz.length); };
+  const makePlan = () => { const stops = plan.length ? plan : selected.slice(0, 3); const days = Math.max(2, stops.length * 2); alert(`${start} থেকে ${stops.join(", ")} — ${days} দিনের ভ্রমণ পরিকল্পনা তৈরি হয়েছে। আনুমানিক খরচ ৳${(days * 3200).toLocaleString("bn-BD")}`); };
+  const handlePhoto = (file?: File) => { if(!file) return; const reader = new FileReader(); reader.onload = () => setPhoto(String(reader.result)); reader.readAsDataURL(file); };
+  const mapNodes = allDistricts.slice(0, 32);
+  return <div className={`site theme-${theme}`}>
+    <nav className="topbar"><a className="brand" href="#map"><span className="brand-mark">✦</span><span>পথের খাতা</span></a><div className={`navlinks ${menu ? "open" : ""}`}><a href="#map">আমার ম্যাপ</a><a href="#world">বিশ্ব ম্যাপ</a><a href="#explore">কোথায় ঘুরবেন</a><a href="#games">খেলা</a><a href="#plan">ট্রিপ প্ল্যানার</a></div><button className="icon-btn mobile-menu" onClick={() => setMenu(!menu)} aria-label="মেনু"><Menu size={20}/></button></nav>
+    <main>
+      <header className="hero" id="map"><div className="hero-noise"/><div className="hero-copy"><span className="pill">৬৪ জেলা · ৮ বিভাগ</span><h1><em>বাংলাদেশের</em> কতটুকু<br/>ঘুরে দেখেছেন?</h1><p>যে জেলাগুলোতে গিয়েছেন সেগুলো বেছে নিন, পছন্দের রঙের থিম দিন, আর ডাউনলোড করুন আপনার ভ্রমণের সুন্দর একটি ম্যাপ।</p><a className="cta" href="#make">জেলা বাছাই শুরু করুন <span>↓</span></a><div className="steps"><span>◔ জেলা বাছাই করুন</span><span>◒ থিম বেছে নিন</span><span>◉ PNG, JPG বা PDF ডাউনলোড করুন</span></div></div><div className="hero-orbit">✦<small>আমার<br/>বাংলাদেশ</small></div></header>
+      <section className="builder wrap" id="make"><div className="selector card"><div className="section-heading"><div><span className="eyebrow">01 · বেছে নিন</span><h2>যেসব জেলায় গিয়েছি</h2></div><b className="counter">{selected.length} <small>/ ৬৪</small></b></div><div className="search"><Search size={17}/><input value={query} onChange={e => setQuery(e.target.value)} placeholder="জেলা খুঁজুন…"/><button onClick={() => {setSelected(allDistricts); localStorage.setItem("bd-selected", JSON.stringify(allDistricts));}}>সব বাছাই</button><button className="muted-btn" onClick={() => {setSelected([]); localStorage.setItem("bd-selected", "[]");}}>মুছুন</button></div><div className="district-list">{Object.entries(divisions).map(([div, ds]) => <div className="division" key={div}><div className="division-head"><strong>{div} <small>{ds.filter(d => selected.includes(d)).length}/{ds.length}</small></strong><button onClick={() => selectDivision(ds)}>সব বাছাই</button></div><div className="chips">{(query ? filtered.filter(d => ds.includes(d)) : ds).map(d => <button key={d} className={selected.includes(d) ? "chip selected" : "chip"} onClick={() => toggleDistrict(d)}>{d}</button>)}</div></div>)}</div></div>
+        <div className="preview card" ref={mapRef}><div className="section-heading"><div><span className="eyebrow">02 · আপনার ম্যাপ</span><h2>থিম বেছে নিন</h2></div><label className="upload">＋ আপনার ছবি যোগ করুন<input type="file" accept="image/*" onChange={e => handlePhoto(e.target.files?.[0])}/></label></div><div className="theme-row">{themes.map((t,i) => <button key={t} aria-label={themeNames[i]} className={`theme-dot ${t} ${theme === t ? "active" : ""}`} onClick={() => setTheme(t)}/>)}</div><div className="preview-controls"><input value={name} onChange={e => setName(e.target.value)} placeholder="আপনার নাম (ঐচ্ছিক)"/><label><input type="checkbox" checked={labels} onChange={e => setLabels(e.target.checked)}/> জেলার নাম</label></div><div className="map-art">{photo && <img src={photo} alt="আপনার ভ্রমণের ছবি"/>}<div className="map-title">{name || "আমার বাংলাদেশ"}</div><div className="map-subtitle">বাংলাদেশ ভ্রমণ ম্যাপ</div><div className="bangla-shape"><span className="river"/><div className="map-dots">{mapNodes.map((d,i) => <button key={d} title={d} className={selected.includes(d) ? "map-dot visited" : "map-dot"} style={{left:`${15+(i%8)*10}%`,top:`${18+Math.floor(i/8)*18}%`}} onClick={() => toggleDistrict(d)}>{labels && selected.includes(d) ? d : ""}</button>)}</div><div className="map-label">বাংলাদেশ</div></div><div className="map-count"><strong>{selected.length}</strong><span>/৬৪<br/>জেলা</span></div></div><p className="tip">টিপস: ম্যাপের জেলায় সরাসরি ক্লিক করেও বাছাই করতে পারেন।</p><div className="download-row"><button onClick={() => downloadMap("png", name, selected.length, theme)}><Download size={16}/> PNG</button><button onClick={() => downloadMap("jpg", name, selected.length, theme)}><FileImage size={16}/> JPG</button><button onClick={() => downloadMap("pdf", name, selected.length, theme)}><FileText size={16}/> PDF</button></div></div></section>
 
-  return (
-    <div className="min-h-screen flex flex-col">
-      <main>
-        {/* Example: lucide-react for icons */}
-        <Loader2 className="animate-spin" />
-        Example Page
-        {/* Example: Streamdown for markdown rendering */}
-        <Streamdown>Any **markdown** content</Streamdown>
-        <Button variant="default">Example Button</Button>
-      </main>
-    </div>
-  );
+      <section className="world-section wrap" id="world"><div className="section-intro"><span className="eyebrow">02 · বিশ্ব ভ্রমণ</span><h2>মানচিত্রে আপনার পৃথিবী</h2><p>যেসব দেশে গিয়েছেন সেগুলো বেছে নিন, থিম দিন, আর আপনার বিশ্বভ্রমণের গল্প সাজিয়ে নিন।</p></div><div className="world-layout card"><div><div className="search"><Search size={17}/><input value={countryQuery} onChange={e => setCountryQuery(e.target.value)} placeholder="দেশ খুঁজুন…"/></div><div className="country-chips">{filteredCountries.map(c => <button className={worldSelected.includes(c) ? "chip selected" : "chip"} key={c} onClick={() => setWorldSelected(v => v.includes(c) ? v.filter(x=>x!==c) : [...v,c])}>{c}</button>)}</div></div><div className="world-map"><div className="continent asia">এশিয়া</div><div className="continent europe">ইউরোপ</div><div className="continent africa">আফ্রিকা</div><div className="continent americas">আমেরিকা</div><div className="world-count">{worldSelected.length}<small> দেশ</small></div></div></div></section>
+
+      <section className="explore wrap" id="explore"><div className="section-intro"><span className="eyebrow">03 · আবিষ্কার করুন</span><h2>কোথায় ঘুরবেন?</h2><p>জেলা বেছে নিন — দেখুন সেখানকার জনপ্রিয় ও কম পরিচিত দর্শনীয় স্থান, কীভাবে যাবেন, কত খরচ আর কোথায় থাকবেন।</p></div><div className="guide-grid">{guideData.map(g => <article className="guide-card" key={g.name} onClick={() => setActiveGuide(g)}><div className="guide-emoji">{g.emoji}</div><span className="tag">{g.tag}</span><h3>{g.name}</h3><p>{g.places}</p><div className="guide-meta"><span>↗ {g.route}</span><span>৳ {g.cost.replace("৳","")}</span></div><button>ভ্রমণ গাইড দেখুন →</button></article>)}</div><div className="notice">⚠️ ভাড়া, খরচ ও হোটেলের তথ্য আনুমানিক এবং সময়ের সাথে বদলায়। যাওয়ার আগে সর্বশেষ তথ্য যাচাই করে নিন।</div></section>
+
+      <section className="games wrap" id="games"><div className="section-intro"><span className="eyebrow">04 · খেলুন</span><h2>ভ্রমণ জানেন কতটা?</h2><p>কুইজে সর্বোচ্চ নম্বর আর পাজলে সবচেয়ে দ্রুত সময়।</p></div><div className="game-grid"><div className="quiz card"><div className="game-top"><span className="game-icon">✎</span><b>জেলা কুইজ</b><span className="score">স্কোর {quizScore}</span></div><h3>{quiz[quizIndex].q}</h3><div className="answer-grid">{quiz[quizIndex].opts.map(o => <button key={o} onClick={() => answerQuiz(o)}>{o}</button>)}</div><small>প্রশ্ন {quizIndex + 1}/৩ · প্রতিটি সঠিক উত্তরে ১০ পয়েন্ট</small></div><div className="puzzle card"><div className="game-top"><span className="game-icon">⌘</span><b>বাংলাদেশ সাজান</b><span className="score">{puzzle.length}/৫</span></div><h3>জেলাগুলো টেনে এনে ম্যাপে বসান</h3><div className="puzzle-board"><div className="mini-map">{puzzle.map(p => <span key={p}>{p}</span>)}</div><div className="puzzle-pieces">{["ঢাকা","সিলেট","কক্সবাজার","রাজশাহী","বরিশাল"].filter(x => !puzzle.includes(x)).map(x => <button draggable onDragStart={() => setPuzzle(v => [...v,x])} onClick={() => setPuzzle(v => [...v,x])} key={x}>{x}</button>)}</div></div>{puzzle.length === 5 && <b className="success">দারুণ! পুরো বাংলাদেশ সাজিয়ে ফেলেছেন।</b>}</div></div></section>
+
+      <section className="planner wrap" id="plan"><div className="planner-copy"><span className="eyebrow">05 · সাজিয়ে নিন</span><h2>আপনার ট্রিপ প্ল্যানার</h2><p>কোথা থেকে শুরু করবেন আর কোন কোন জেলায় যাবেন বেছে নিন — সাজিয়ে দেওয়া হবে কোথায় আগে যাবেন, প্রতিদিন কী দেখবেন, কোথায় থাকবেন আর মোট কত খরচ হতে পারে।</p></div><div className="planner-card card"><label>শুরু হবে যেখান থেকে<select value={start} onChange={e => setStart(e.target.value)}>{allDistricts.slice(0,20).map(d=><option key={d}>{d}</option>)}</select></label><label>যেসব জেলায় যেতে চান<div className="plan-chips">{allDistricts.slice(0,12).map(d=><button className={plan.includes(d) ? "chip selected" : "chip"} onClick={() => setPlan(v => v.includes(d) ? v.filter(x=>x!==d) : [...v,d])} key={d}>{d}</button>)}</div></label><button className="cta full" onClick={makePlan}>আমার ভ্রমণ পরিকল্পনা বানান <span>→</span></button></div></section>
+    </main>
+    <footer><div><span className="brand-mark">✦</span> পথের খাতা</div><p>বাংলাদেশের জন্য ভালোবাসা দিয়ে তৈরি · আপনার বাছাই শুধু আপনার ব্রাউজারেই থাকে</p><span>© ২০২৬</span></footer>
+    {activeGuide && <div className="modal-backdrop" onClick={() => setActiveGuide(null)}><div className="modal" onClick={e => e.stopPropagation()}><button className="close" onClick={() => setActiveGuide(null)}><X/></button><div className="guide-emoji big">{activeGuide.emoji}</div><span className="tag">{activeGuide.tag}</span><h2>{activeGuide.name}</h2><p>{activeGuide.places}</p><hr/><p><b>কীভাবে যাবেন:</b> {activeGuide.route}</p><p><b>আনুমানিক খরচ:</b> {activeGuide.cost}</p><p><b>কোথায় থাকবেন:</b> {activeGuide.stay}</p><p><b>স্থানীয় স্বাদ:</b> {activeGuide.food}</p><div className="notice">{activeGuide.note}</div></div></div>}
+  </div>;
 }
