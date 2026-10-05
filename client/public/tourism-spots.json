@@ -1,0 +1,349 @@
+{
+  "version": 1,
+  "scope": "initial-8-districts",
+  "districts": [
+    {
+      "district_bn": "চট্টগ্রাম",
+      "places": [
+        {
+          "district_bn": "চট্টগ্রাম",
+          "place_bn": "পতেঙ্গা সমুদ্রসৈকত",
+          "place_latin": "Patenga Sea Beach",
+          "short_reason_bn": "শহরের জনপ্রিয় সমুদ্রসৈকত ও সূর্যাস্ত দেখার স্থান।",
+          "category": "nature",
+          "approximate_lat": 22.2361,
+          "approximate_lng": 91.7906,
+          "source_url": "https://en.banglapedia.org/index.php/Patenga"
+        },
+        {
+          "district_bn": "চট্টগ্রাম",
+          "place_bn": "চট্টগ্রাম চিড়িয়াখানা",
+          "place_latin": "Chattogram Zoo",
+          "short_reason_bn": "শহরের পারিবারিক ভ্রমণের পরিচিত বন্যপ্রাণী উদ্যান।",
+          "category": "experience",
+          "approximate_lat": 22.3707,
+          "approximate_lng": 91.7873,
+          "source_url": "https://en.banglapedia.org/index.php/Chittagong_Zoo"
+        },
+        {
+          "district_bn": "চট্টগ্রাম",
+          "place_bn": "বায়েজিদ বোস্তামীর মাজার",
+          "place_latin": "Bayazid Bostami Shrine",
+          "short_reason_bn": "চট্টগ্রামের ঐতিহাসিক সুফি মাজার ও পুকুর।",
+          "category": "religious",
+          "approximate_lat": 22.3765,
+          "approximate_lng": 91.8218,
+          "source_url": "https://en.banglapedia.org/index.php/Bayazid_Bostami"
+        }
+      ]
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "places": [
+        {
+          "district_bn": "কক্সবাজার",
+          "place_bn": "কক্সবাজার সমুদ্রসৈকত",
+          "place_latin": "Cox's Bazar Sea Beach",
+          "short_reason_bn": "দীর্ঘ বালুকাবেলার জন্য দেশের প্রধান সমুদ্রভ্রমণ গন্তব্য।",
+          "category": "nature",
+          "approximate_lat": 21.4272,
+          "approximate_lng": 91.9702,
+          "source_url": "http://tourismboard.gov.bd/pages/static-pages/6922dc8d933eb65569e10f2f"
+        },
+        {
+          "district_bn": "কক্সবাজার",
+          "place_bn": "হিমছড়ি",
+          "place_latin": "Himchari",
+          "short_reason_bn": "পাহাড়, ঝরনা ও সমুদ্রের দৃশ্যের জনপ্রিয় পর্যটন এলাকা।",
+          "category": "nature",
+          "approximate_lat": 21.35,
+          "approximate_lng": 92.045,
+          "source_url": "https://en.banglapedia.org/index.php/Himchari"
+        },
+        {
+          "district_bn": "কক্সবাজার",
+          "place_bn": "ইনানী সমুদ্রসৈকত",
+          "place_latin": "Inani Beach",
+          "short_reason_bn": "প্রবালপাথর ও প্রশস্ত বালুচরের জন্য পরিচিত সৈকত।",
+          "category": "nature",
+          "approximate_lat": 21.1725,
+          "approximate_lng": 92.0525,
+          "source_url": "https://en.banglapedia.org/index.php/Inani_Beach"
+        }
+      ]
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "places": [
+        {
+          "district_bn": "রাঙ্গামাটি",
+          "place_bn": "কাপ্তাই হ্রদ",
+          "place_latin": "Kaptai Lake",
+          "short_reason_bn": "বাংলাদেশের বৃহৎ কৃত্রিম হ্রদ; নৌভ্রমণ ও পাহাড়ি দৃশ্যের কেন্দ্র।",
+          "category": "nature",
+          "approximate_lat": 22.637,
+          "approximate_lng": 92.19,
+          "source_url": "https://en.banglapedia.org/index.php/Kaptai_Lake"
+        },
+        {
+          "district_bn": "রাঙ্গামাটি",
+          "place_bn": "ঝুলন্ত সেতু",
+          "place_latin": "Rangamati Hanging Bridge",
+          "short_reason_bn": "পর্যটন কমপ্লেক্সের প্রতীকী সেতু ও হ্রদদৃশ্য।",
+          "category": "experience",
+          "approximate_lat": 22.651,
+          "approximate_lng": 92.172,
+          "source_url": "https://rangamati.gov.bd/"
+        },
+        {
+          "district_bn": "রাঙ্গামাটি",
+          "place_bn": "শুভলং ঝরনা",
+          "place_latin": "Shuvolong Waterfall",
+          "short_reason_bn": "কাপ্তাই হ্রদের নৌপথে পৌঁছানো জনপ্রিয় পাহাড়ি ঝরনা।",
+          "category": "nature",
+          "approximate_lat": 22.71,
+          "approximate_lng": 92.22,
+          "source_url": "https://en.banglapedia.org/index.php/Rangamati_District"
+        }
+      ]
+    },
+    {
+      "district_bn": "বান্দরবান",
+      "places": [
+        {
+          "district_bn": "বান্দরবান",
+          "place_bn": "নীলগিরি",
+          "place_latin": "Nilgiri",
+          "short_reason_bn": "উচ্চ পাহাড়চূড়া থেকে মেঘ ও পার্বত্য দৃশ্য দেখার জনপ্রিয় স্থান।",
+          "category": "nature",
+          "approximate_lat": 21.806,
+          "approximate_lng": 92.393,
+          "source_url": "https://bandarban.gov.bd/"
+        },
+        {
+          "district_bn": "বান্দরবান",
+          "place_bn": "বুদ্ধ ধাতু জাদি",
+          "place_latin": "Buddha Dhatu Jadi",
+          "short_reason_bn": "বান্দরবান শহরের বিখ্যাত বৌদ্ধ মন্দির ও দর্শনীয় স্থাপনা।",
+          "category": "religious",
+          "approximate_lat": 22.182,
+          "approximate_lng": 92.218,
+          "source_url": "https://en.banglapedia.org/index.php/Bandarban_District"
+        },
+        {
+          "district_bn": "বান্দরবান",
+          "place_bn": "বগা লেক",
+          "place_latin": "Boga Lake",
+          "short_reason_bn": "পাহাড়ঘেরা প্রাকৃতিক হ্রদ, ট্রেকিং ও ক্যাম্পিংয়ের গন্তব্য।",
+          "category": "nature",
+          "approximate_lat": 21.95,
+          "approximate_lng": 92.5,
+          "source_url": "https://en.banglapedia.org/index.php/Boga_Lake"
+        }
+      ]
+    },
+    {
+      "district_bn": "সিলেট",
+      "places": [
+        {
+          "district_bn": "সিলেট",
+          "place_bn": "জাফলং",
+          "place_latin": "Jaflong",
+          "short_reason_bn": "পাহাড়, নদী ও পাথরের নৈসর্গিক সীমান্তভূমি",
+          "category": "nature",
+          "approximate_lat": 25.172966,
+          "approximate_lng": 92.020288,
+          "source_url": "http://sylhet.gov.bd/pages/tourist-spot"
+        },
+        {
+          "district_bn": "সিলেট",
+          "place_bn": "রাতারগুল জলাবন",
+          "place_latin": "Ratargul Swamp Forest",
+          "short_reason_bn": "মিঠাপানির জলাবন; নৌকাভ্রমণের জনপ্রিয় স্থান",
+          "category": "nature",
+          "approximate_lat": 25.012106,
+          "approximate_lng": 91.922927,
+          "source_url": "http://sylhet.gov.bd/pages/tourist-spot"
+        },
+        {
+          "district_bn": "সিলেট",
+          "place_bn": "বিছনাকান্দি",
+          "place_latin": "Bichanakandi",
+          "short_reason_bn": "পাথর, পাহাড়ি ছড়া ও সীমান্তের জলপ্রবাহ",
+          "category": "nature",
+          "source_url": "http://sylhet.gov.bd/pages/tourist-spot"
+        },
+        {
+          "district_bn": "সিলেট",
+          "place_bn": "লালাখাল",
+          "place_latin": "Lalakhal",
+          "short_reason_bn": "স্বচ্ছ নীল-সবুজ নদী ও নৌভ্রমণের অভিজ্ঞতা",
+          "category": "experience",
+          "approximate_lat": 25.116528,
+          "approximate_lng": 92.184191,
+          "source_url": "http://sylhet.gov.bd/pages/tourist-spot"
+        },
+        {
+          "district_bn": "সিলেট",
+          "place_bn": "হযরত শাহজালাল (র.) মাজার",
+          "place_latin": "Hazrat Shahjalal Mazar Sharif",
+          "short_reason_bn": "সিলেটের প্রধান ইসলামী তীর্থ ও ঐতিহাসিক দরগাহ",
+          "category": "religious",
+          "approximate_lat": 24.902189,
+          "approximate_lng": 91.866367,
+          "source_url": "http://sylhet.gov.bd/pages/tourist-spot"
+        }
+      ]
+    },
+    {
+      "district_bn": "মৌলভীবাজার",
+      "places": [
+        {
+          "district_bn": "মৌলভীবাজার",
+          "place_bn": "লাউয়াছড়া জাতীয় উদ্যান",
+          "place_latin": "Lawachara National Park",
+          "short_reason_bn": "সংরক্ষিত ট্রপিক্যাল রেইনফরেস্ট ও জীববৈচিত্র্যের জনপ্রিয় উদ্যান",
+          "category": "nature",
+          "approximate_lat": 24.329227,
+          "approximate_lng": 91.787934,
+          "source_url": "http://acl.moulvibazarsadar.moulvibazar.gov.bd/pages/static-pages/696cb3f0c4774958d7ba2347"
+        },
+        {
+          "district_bn": "মৌলভীবাজার",
+          "place_bn": "মাধবকুণ্ড জলপ্রপাত",
+          "place_latin": "Madhabkunda Waterfall",
+          "short_reason_bn": "বাংলাদেশের পরিচিত জলপ্রপাত ও মাধবকুণ্ড ইকোপার্ক",
+          "category": "nature",
+          "source_url": "http://acl.moulvibazarsadar.moulvibazar.gov.bd/pages/static-pages/696cb3f0c4774958d7ba2347"
+        },
+        {
+          "district_bn": "মৌলভীবাজার",
+          "place_bn": "মাধবপুর লেক",
+          "place_latin": "Madhabpur Lake",
+          "short_reason_bn": "চা-বাগানের টিলায় গড়া পদ্মফুলঘেরা হ্রদ",
+          "category": "nature",
+          "approximate_lat": 24.281044,
+          "approximate_lng": 91.817327,
+          "source_url": "http://acl.moulvibazarsadar.moulvibazar.gov.bd/pages/static-pages/696cb3f0c4774958d7ba2347"
+        },
+        {
+          "district_bn": "মৌলভীবাজার",
+          "place_bn": "হামহাম জলপ্রপাত",
+          "place_latin": "Hum Hum Waterfall",
+          "short_reason_bn": "রাজকান্দি বনের দুর্গম ট্রেক ও ঝরনার অভিজ্ঞতা",
+          "category": "experience",
+          "approximate_lat": 24.167732,
+          "approximate_lng": 91.911957,
+          "source_url": "https://www.thedailystar.net/life-living/travel/news/top-5-travel-destinations-moulvibazar-sylhet-3317056"
+        },
+        {
+          "district_bn": "মৌলভীবাজার",
+          "place_bn": "বাইক্কা বিল",
+          "place_latin": "Baikka Beel Wetland Sanctuary",
+          "short_reason_bn": "হাইল হাওরের পাখি ও মাছের অভয়াশ্রম; পর্যবেক্ষণ টাওয়ার",
+          "category": "nature",
+          "approximate_lat": 24.350199,
+          "approximate_lng": 91.699309,
+          "source_url": "http://acl.moulvibazarsadar.moulvibazar.gov.bd/pages/static-pages/696cb3f0c4774958d7ba2347"
+        }
+      ]
+    },
+    {
+      "district_bn": "ঢাকা",
+      "places": [
+        {
+          "district_bn": "ঢাকা",
+          "place_bn": "লালবাগ কেল্লা",
+          "place_latin": "Lalbagh Fort",
+          "short_reason_bn": "মুঘল আমলের অসমাপ্ত দুর্গ ও জাদুঘর; পুরান ঢাকার প্রধান ঐতিহ্যস্থল।",
+          "category": "heritage",
+          "approximate_lat": 23.7195,
+          "approximate_lng": 90.3888,
+          "source_url": "http://dhaka.gov.bd/pages/tourist-spot"
+        },
+        {
+          "district_bn": "ঢাকা",
+          "place_bn": "আহসান মঞ্জিল",
+          "place_latin": "Ahsan Manzil",
+          "short_reason_bn": "বুড়িগঙ্গার তীরে নবাবি প্রাসাদ ও জাদুঘর।",
+          "category": "heritage",
+          "approximate_lat": 23.708,
+          "approximate_lng": 90.406,
+          "source_url": "http://dhaka.gov.bd/pages/tourist-spot"
+        },
+        {
+          "district_bn": "ঢাকা",
+          "place_bn": "জাতীয় সংসদ ভবন",
+          "place_latin": "Jatiya Sangsad Bhaban",
+          "short_reason_bn": "লুই কান নকশার আধুনিক স্থাপত্যের বিশ্বখ্যাত নিদর্শন।",
+          "category": "heritage",
+          "approximate_lat": 23.7625,
+          "approximate_lng": 90.3782,
+          "source_url": "http://dhaka.gov.bd/pages/tourist-spot"
+        },
+        {
+          "district_bn": "ঢাকা",
+          "place_bn": "বাংলাদেশ জাতীয় জাদুঘর",
+          "place_latin": "Bangladesh National Museum",
+          "short_reason_bn": "বাংলাদেশের প্রত্নতত্ত্ব, শিল্প ও সংস্কৃতির জাতীয় সংগ্রহশালা।",
+          "category": "heritage",
+          "approximate_lat": 23.7389,
+          "approximate_lng": 90.3967,
+          "source_url": "http://dhaka.gov.bd/pages/tourist-spot"
+        }
+      ]
+    },
+    {
+      "district_bn": "রাজশাহী",
+      "places": [
+        {
+          "district_bn": "রাজশাহী",
+          "place_bn": "বরেন্দ্র গবেষণা জাদুঘর",
+          "place_latin": "Varendra Research Museum",
+          "short_reason_bn": "বাংলাদেশের প্রাচীনতম জাদুঘরগুলোর একটি; বরেন্দ্র ও বাংলার প্রত্নবস্তু সংগ্রহশালা।",
+          "category": "heritage",
+          "approximate_lat": 24.3745,
+          "approximate_lng": 88.6038,
+          "source_url": "https://www.thedailystar.net/life-living/travel/news/top-6-places-visit-rajshahi-city-3153066"
+        },
+        {
+          "district_bn": "রাজশাহী",
+          "place_bn": "পুঠিয়া মন্দির কমপ্লেক্স",
+          "place_latin": "Puthia Temple Complex",
+          "short_reason_bn": "রাজবাড়ি ও বহু ঐতিহাসিক মন্দিরের ঘন সমষ্টি; টেরাকোটা স্থাপত্যের প্রধান দর্শন।",
+          "category": "heritage",
+          "approximate_lat": 24.365,
+          "approximate_lng": 88.834,
+          "source_url": "https://beautifulbangladesh.gov.bd/loc/rajshahi"
+        },
+        {
+          "district_bn": "রাজশাহী",
+          "place_bn": "বাঘা মসজিদ",
+          "place_latin": "Bagha Mosque",
+          "short_reason_bn": "সুলতানি আমলের ইটের অলংকৃত মসজিদ ও প্রত্নস্থল।",
+          "category": "religious",
+          "approximate_lat": 24.187,
+          "approximate_lng": 88.842,
+          "source_url": "https://beautifulbangladesh.gov.bd/loc/rajshahi"
+        },
+        {
+          "district_bn": "রাজশাহী",
+          "place_bn": "পদ্মা গার্ডেন",
+          "place_latin": "Padma Garden",
+          "short_reason_bn": "পদ্মা নদীর তীরের শহুরে নদীবাঁধ, সূর্যাস্ত ও অবসর ভ্রমণের জনপ্রিয় স্থান।",
+          "category": "nature",
+          "approximate_lat": 24.3636,
+          "approximate_lng": 88.584,
+          "source_url": "https://www.trip.com/travel-guide/attraction/rajshahi-district-1706475/tourist-attractions/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "tourism-chattogram.json",
+    "tourism-sylhet.json",
+    "tourism-dhaka.json",
+    "tourism-rajshahi.json"
+  ],
+  "caveat": "Curated primary visitor list; not an exhaustive official gazetteer. Coordinates are approximate map-list pins and should be rechecked before navigation."
+}

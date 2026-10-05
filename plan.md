@@ -1,36 +1,45 @@
-# আমার এলাকা — Implementation Plan
+# আমার জেলা — Implementation Plan
 
 ## Product direction
 
-“আমার এলাকা” একটি বাংলা-first interactive social-card maker। User শুরুতেই দুটি mode পাবে: **আমার এলাকা** এবং **আমার সম্পর্কে**। Mode বদলালে question set, result title, stats, phrase এবং card narrative বদলাবে। Background visual হিসেবে বাংলাদেশের ৬৪ জেলার public vector map ব্যবহার হবে। User জেলা বেছে নিয়ে নিজের নাম/ছবি/উত্তর দিয়ে animated map-card তৈরি করবে এবং PNG/JPG/PDF/share link পাবে।
+“আমার জেলা” একটি বাংলা-first district travel memory card maker। উপরের tab navigation-এ **আমার জেলা ভ্রমণ**, **আমার সম্পর্কে** এবং পরবর্তী feature-এর জন্য **আরও আসছে** থাকবে। প্রথম release-এ district journey flow সম্পূর্ণ হবে; self-profile card পরে আলাদা discussion অনুযায়ী তৈরি হবে।
+
+User প্রথমে initial ৮টি district-এর একটি select করবে। District select করার আগে visited-place list বা journey map দেখা যাবে না। District select করার পর শুধু সেই district-এর researched visitor places দেখাবে। User যে জায়গাগুলো select করবে, actual Bangladesh district-vector map-এ সেই place-এর approximate coordinate marker filled/coral হবে এবং label উঠবে; unselected places blank থাকবে।
+
+User এরপর নিজের নাম/nickname, photo এবং signature dialogue যোগ করবে। Final card reference-style editorial map card হিসেবে district name, visited count, filled markers, place labels, photo এবং dialogue দেখাবে। PNG/JPG/PDF print এবং share/copy-link থাকবে।
+
+## Initial dataset scope
+
+Initial district list: চট্টগ্রাম, কক্সবাজার, রাঙ্গামাটি, বান্দরবান, ঢাকা, সিলেট, মৌলভীবাজার, রাজশাহী। Visitor-place datasetটি official district/tourism references, Banglapedia, UNESCO/heritage and map cross-check থেকে curated করা হয়েছে; এটি exhaustive official gazetteer নয় এবং coordinates approximate map-list pins হিসেবে ব্যবহার করা হবে। Later districts can be appended without changing the interaction model.
 
 ## Design system
 
 - **Design movement:** editorial cartography + warm digital scrapbook.
-- **Core principles:** map-first storytelling, playful self-expression, fast mobile creation, shareable reveal.
-- **Color philosophy:** deep river green anchors trust and place; coral marks personality; warm paper and mango yellow create memory and human warmth.
-- **Layout paradigm:** asymmetric editorial canvas; large map shapes and floating photo cards instead of a generic centered dashboard.
-- **Signature elements:** district boundary/map outline, postal-stamp style card metadata, landmark dots and dotted-route motifs.
-- **Interaction philosophy:** one-tap selection, short funny questions, progressive reveal, visible privacy choice, no forced account for the demo flow.
-- **Animation:** map/landmark reveal, soft hover lift, progress transitions and result-card reveal; motion stays short and functional.
-- **Typography:** Anek Bangla for Bengali display and UI hierarchy, with spacious uppercase micro-labels for the cartographic/editorial layer.
-- **Brand essence:** “Your map, your story”—for people who want to turn hometown identity or personality into a social object. Personality: warm, witty, rooted.
-- **Brand voice:** conversational, teasing, locally aware. Example lines: “আপনার map-এ আপনার গল্প।” and “একটু বসি—কিন্তু উঠি কালকে।”
-- **Wordmark/mark:** a rotated map-pin/flower star mark beside the Bengali wordmark.
+- **Core principles:** district-first selection, map-first storytelling, one-tap place marking, shareable personal memory.
+- **Color philosophy:** river green marks visited geography; paper cream keeps the card archival; coral marks personal memories and selected places; muted grey keeps unvisited districts quiet.
+- **Layout paradigm:** asymmetric editorial canvas with a wide district map, compact place list, and poster-like share card.
+- **Signature elements:** filled/blank place markers, district boundary map, postal-stamp metadata and selected-place strip.
+- **Interaction philosophy:** first choose district, then reveal only its place list; selection is reversible; no account required for the demo flow.
+- **Animation:** soft map reveal, marker pulse on selection, hover lift on place rows, short card reveal; motion remains functional and mobile-friendly.
+- **Typography:** Anek Bangla for Bengali display/UI and compact uppercase micro-labels for the cartographic/editorial layer.
+- **Brand essence:** “আমার জেলা — যে জায়গাগুলো আমি ঘুরেছি।” Personality: rooted, playful, personal.
+- **Brand voice:** conversational and memory-led. Example lines: “আগে জেলা বেছে নিন।” and “এই map-এ আমার অনেক গল্প আছে।”
+- **Wordmark/mark:** a small rotated map-pin/star mark beside the Bengali wordmark.
 - **Signature color:** river green `#0d6b55`.
 
 ## Implementation structure
 
-- `client/src/pages/Home.tsx`: homepage, mode selection, 64-district picker, mode-specific questions, image upload, result card, share/download actions.
-- `client/src/index.css`: responsive editorial/cartographic visual system and print rules.
-- `client/public/bd-map.json`: district vector geometry used by the interactive map card.
+- `client/src/pages/Home.tsx`: tab navigation, district-first selection, place list, map markers/labels, profile fields, preview card, share/export actions.
+- `client/src/index.css`: responsive editorial/cartographic visual system, map markers, card layout and print rules.
+- `client/public/bd-map.json`: actual Bangladesh district vector geometry.
+- `client/public/tourism-spots.json`: initial ৮ district place data, source URLs and approximate coordinates.
 - `client/public/manus-routes.json`: public route manifest.
 - `server/_core`: existing starter server and health route retained.
 
-## Map source/licensing decision
+## Map behavior
 
-The site uses the project’s existing district vector asset for the 64 districts and keeps public geographic attribution in the footer. A production release should replace/confirm the asset’s exact upstream license and add a dedicated attribution page before commercial publication. No copyrighted third-party artwork is copied into the card design.
+The full district vector map remains visible in a reference-style Bangladesh composition. The chosen district is filled green while other districts remain muted/blank. Each researched place is projected onto the map from its approximate latitude/longitude. Unselected places show as blank dots; selected places show a coral filled dot, halo and Bengali label. The same selected state is reused in the share card.
 
 ## Delivery behavior
 
-The current MVP is client-first: card preview is instant, user photo stays in-browser, share links encode the selected mode and district, PNG/JPG export is generated locally, and PDF uses the browser print layout. Public gallery, persistent accounts and server-side card storage remain planned follow-up capabilities.
+The current MVP is client-first: visitor place data and vectors are static public assets, user photo stays in-browser, share links encode district and selected places, PNG/JPG export is generated locally, and PDF uses browser print layout. No existing Cloudflare site will be modified. After implementation, code will be pushed to the user’s separate GitHub repository and a new Cloudflare project will be attempted independently.
