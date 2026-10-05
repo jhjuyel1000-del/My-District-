@@ -10,7 +10,7 @@ User এরপর নিজের নাম/nickname, photo এবং signature 
 
 ## Initial dataset scope
 
-Initial district list: চট্টগ্রাম, কক্সবাজার, রাঙ্গামাটি, বান্দরবান, ঢাকা, সিলেট, মৌলভীবাজার, রাজশাহী। Visitor-place datasetটি official district/tourism references, Banglapedia, UNESCO/heritage and map cross-check থেকে curated করা হয়েছে; এটি exhaustive official gazetteer নয় এবং coordinates approximate map-list pins হিসেবে ব্যবহার করা হবে। Later districts can be appended without changing the interaction model.
+Initial district list: চট্টগ্রাম, কক্সবাজার, রাঙ্গামাটি, বান্দরবান, ঢাকা, সিলেট, মৌলভীবাজার, রাজশাহী। প্রথম research pass-এ চট্টগ্রাম ৭৩, কক্সবাজার ৬৯, রাঙ্গামাটি ৪৯ এবং বান্দরবান ৭৪টি deduplicated named visitor destination যোগ করা হয়েছে—beach, lake, riverbank, waterfall, hill/viewpoint, park, museum, heritage/religious, recreation, resort and public attraction category ধরে। ঢাকা, সিলেট, মৌলভীবাজার ও রাজশাহীর initial shortlist পরের pass-এ একই depth-এ expand হবে। Visitor-place datasetটি official district/tourism references, Banglapedia, Forest Department, reputable travel reporting, map-indexed pages ও public listings cross-check থেকে curated করা হয়েছে; এটি exhaustive official gazetteer নয় এবং missing/uncertain coordinates fallback marker হিসেবে ব্যবহার করা হবে। Later districts can be appended without changing the interaction model.
 
 ## Design system
 

@@ -1,0 +1,737 @@
+{
+  "district_bn": "রাঙ্গামাটি",
+  "researched_at_note": "২০২৬-১০-০৫ পর্যন্ত প্রকাশ্য ওয়েবে অনুসন্ধান করা হয়েছে। সরকারি জেলা/উপজেলা প্রশাসন ও বাংলাদেশ ট্যুরিজম বোর্ডের পেজ, BSS ও ডেইলি স্টার, Banglapedia/ঐতিহ্য-ধাঁচের রেফারেন্স, Forest Department/জাতীয় উদ্যানের রেফারেন্স, নির্ভরযোগ্য ট্রাভেল গাইড, OSM/ম্যাপ-ইনডেক্সড পেজ এবং বর্তমান পাবলিক লিস্টিং খোঁজা হয়েছে। কোনো পাবলিক ওয়েব তালিকা আক্ষরিক অর্থে সম্পূর্ণতার নিশ্চয়তা দিতে পারে না; প্রত্যন্ত ঝরনা, স্থানীয় ধর্মীয় স্থান, মৌসুমি/নিয়ন্ত্রিত স্পট ও বদলে যাওয়া রিসোর্ট-অ্যাক্সেস এখনও অনিশ্চিত।",
+  "places": [
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "কাপ্তাই হ্রদ",
+      "place_latin": "Kaptai Lake",
+      "category": "lake",
+      "short_reason_bn": "রাঙ্গামাটির প্রধান কৃত্রিম হ্রদ; দ্বীপ, পাহাড় ও নৌভ্রমণের জন্য সরাসরি পর্যটন গন্তব্য।",
+      "approximate_lat": 22.759535,
+      "approximate_lng": 92.276073,
+      "source_url": "https://beautifulbangladesh.gov.bd/loc/chattogram/123",
+      "source_type": "Bangladesh Tourism Board / Beautiful Bangladesh",
+      "confidence": "high",
+      "complex_note": "বৃহৎ জলভূমি; নৌপথে শুভলং, পেদা টিং টিং, নির্বাণ নগরসহ উপ-আকর্ষণগুলো দেখা হয়।"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "শুভলং ঝরনা",
+      "place_latin": "Shuvolong Waterfall",
+      "category": "waterfall",
+      "short_reason_bn": "কাপ্তাই হ্রদের জলপথে নৌকায় পৌঁছানো যায়; বর্ষায় প্রবাহ ও পাহাড়ি দৃশ্যের জন্য বিখ্যাত।",
+      "approximate_lat": 22.793,
+      "approximate_lng": 92.195,
+      "source_url": "https://beautifulbangladesh.gov.bd/district-destination/rangamati/hill-tracts-waterfalls/135",
+      "source_type": "Bangladesh Tourism Board / Beautiful Bangladesh",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "পেদা টিং টিং দ্বীপ",
+      "place_latin": "Peda Ting Ting Island",
+      "category": "island_lakeside",
+      "short_reason_bn": "কাপ্তাই হ্রদের ছোট দ্বীপ; পর্যটকদের জন্য নৌকায় যাতায়াতযোগ্য নির্জন দ্বীপ-পরিবেশ।",
+      "approximate_lat": 22.744,
+      "approximate_lng": 92.222,
+      "source_url": "https://beautifulbangladesh.gov.bd/district-destination/chattogram/island/136",
+      "source_type": "Bangladesh Tourism Board / Beautiful Bangladesh",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "রাঙ্গামাটি ঝুলন্ত সেতু",
+      "place_latin": "Rangamati Hanging Bridge",
+      "category": "bridge_viewpoint",
+      "short_reason_bn": "কাপ্তাই হ্রদের ওপর ৩৩৫ ফুটের দর্শনীয় সেতু; রাঙ্গামাটির প্রতীকী পর্যটন স্থান।",
+      "approximate_lat": 22.636,
+      "approximate_lng": 92.184,
+      "source_url": "https://bangla.thedailystar.net/life-living/travel/news-501446",
+      "source_type": "reputable travel press",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "রাজবন বিহার",
+      "place_latin": "Rajban Vihara",
+      "category": "buddhist_temple",
+      "short_reason_bn": "শহরের গুরুত্বপূর্ণ বৌদ্ধ তীর্থস্থান ও দর্শনীয় মঠ-চত্বর; একাধিক মন্দির, ভাবনা কেন্দ্র ও পবিত্র স্থাপনা আছে।",
+      "approximate_lat": 22.649,
+      "approximate_lng": 92.178,
+      "source_url": "https://bangla.thedailystar.net/life-living/travel/news-501446",
+      "source_type": "reputable travel press",
+      "confidence": "high",
+      "complex_note": "বিহার কমপ্লেক্সের ভেতরের মন্দির, ভাবনা কেন্দ্র, বেইনঘর ও অন্যান্য স্থাপনা উপ-আকর্ষণ।"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "ক্ষুদ্র নৃগোষ্ঠীর সাংস্কৃতিক ইনস্টিটিউট জাদুঘর",
+      "place_latin": "Tribal Cultural Museum, Rangamati",
+      "category": "museum_cultural",
+      "short_reason_bn": "পার্বত্য জনগোষ্ঠীর ইতিহাস, সংস্কৃতি, পোশাক, বাদ্যযন্ত্র ও জীবনধারার সংগ্রহশালা।",
+      "approximate_lat": 22.64,
+      "approximate_lng": 92.178,
+      "source_url": "http://rangamati.gov.bd/pages/tourist-spot",
+      "source_type": "Rangamati District Administration",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "রাঙ্গামাটি পার্ক",
+      "place_latin": "Rangamati Park",
+      "category": "park",
+      "short_reason_bn": "জেলা প্রশাসনের পর্যটন-স্পট তালিকায় থাকা শহরের পাবলিক পার্ক ও অবকাশস্থান।",
+      "approximate_lat": 22.648,
+      "approximate_lng": 92.174,
+      "source_url": "http://rangamati.gov.bd/pages/tourist-spot",
+      "source_type": "Rangamati District Administration",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "বনশ্রী পর্যটন কমপ্লেক্স",
+      "place_latin": "Banshree Tourist Complex",
+      "category": "resort_day_resort",
+      "short_reason_bn": "সরকারি জেলা পর্যটন তালিকায় থাকা পর্যটন কমপ্লেক্স; লেক-পাহাড় পরিবেশে দিনভ্রমণ/অবকাশের স্থান।",
+      "approximate_lat": 22.624,
+      "approximate_lng": 92.196,
+      "source_url": "http://rangamati.gov.bd/pages/tourist-spot",
+      "source_type": "Rangamati District Administration",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "তবলছড়ি ডিয়ার পার্ক",
+      "place_latin": "Tabalchhari Deer Park",
+      "category": "park_wildlife",
+      "short_reason_bn": "সরকারি জেলা পর্যটন তালিকায় থাকা তবলছড়ির হরিণ-পার্ক ও জনসাধারণের অবকাশস্থল।",
+      "approximate_lat": 22.653,
+      "approximate_lng": 92.186,
+      "source_url": "http://rangamati.gov.bd/pages/tourist-spot",
+      "source_type": "Rangamati District Administration",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "ডিসি বাংলো পার্ক",
+      "place_latin": "DC Bungalow Park",
+      "category": "park_viewpoint",
+      "short_reason_bn": "সরকারি পর্যটন স্পট; রাঙ্গামাটি জিরো পয়েন্ট ও কাপ্তাই হ্রদের দৃশ্য দেখা যায়।",
+      "approximate_lat": 22.652,
+      "approximate_lng": 92.171,
+      "source_url": "http://rangamati.gov.bd/pages/tourist-spot",
+      "source_type": "Rangamati District Administration",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "পলওয়েল পার্ক ও কটেজ",
+      "place_latin": "Polwel Park & Cottage",
+      "category": "park_resort_recreation",
+      "short_reason_bn": "জেলা পুলিশ পরিচালিত লেকফ্রন্ট পার্ক; লাভ পয়েন্ট, বসার স্থান, নৌ/বিনোদন সুবিধা ও কটেজ রয়েছে।",
+      "approximate_lat": 22.646,
+      "approximate_lng": 92.166,
+      "source_url": "https://bangla.thedailystar.net/life-living/travel/news-501446",
+      "source_type": "reputable travel press",
+      "confidence": "high",
+      "complex_note": "পার্কের ভেতরে লাভ পয়েন্ট ও বিনোদন সুবিধা; কটেজ আলাদা আবাসন হলেও পার্কটি day-visitor attraction।"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "আরণ্যক রিসোর্ট",
+      "place_latin": "Aranyak Resort",
+      "category": "resort_day_resort",
+      "short_reason_bn": "সরকারি/প্রশাসনিক তালিকায় থাকা লেক-পাহাড় পরিবেশের পর্যটন রিসোর্ট; দর্শনার্থী ও অবকাশযাপনে ব্যবহৃত।",
+      "approximate_lat": 22.624,
+      "approximate_lng": 92.191,
+      "source_url": "http://rangamati.gov.bd/pages/tourist-spot",
+      "source_type": "Rangamati District Administration",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "রাইন্যা টুগুন ইকো রিসোর্ট",
+      "place_latin": "Rainya Tugun Eco Resort",
+      "category": "eco_resort",
+      "short_reason_bn": "কাপ্তাই-লিংক রোডের লেক-পাহাড় ঘেরা ইকো-রিসোর্ট; বর্তমান পাবলিক লিস্টিংয়ে দর্শনীয় অবকাশস্থান।",
+      "approximate_lat": 22.532956,
+      "approximate_lng": 92.196302,
+      "source_url": "http://rangamati.gov.bd/pages/tourist-spot",
+      "source_type": "Rangamati District Administration",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "নীলাদ্রি রিসোর্ট ও শিশুপার্ক",
+      "place_latin": "Niladri Resort & Shishu Park",
+      "category": "resort_park",
+      "short_reason_bn": "জেলা প্রশাসনের পর্যটন তালিকায় থাকা রিসোর্ট ও শিশুদের পার্ক-সমন্বিত দর্শনার্থী স্থান।",
+      "approximate_lat": 22.65,
+      "approximate_lng": 92.177,
+      "source_url": "http://rangamati.gov.bd/pages/tourist-spot",
+      "source_type": "Rangamati District Administration",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "টুকটুক ইকো ভিলেজ",
+      "place_latin": "Tuk Tuk Eco Village",
+      "category": "eco_resort_cultural",
+      "short_reason_bn": "কিল্লামুড়া এলাকায় কাপ্তাই হ্রদের পশ্চিম তীরে ইকো-ভিলেজ ও অবকাশযাপনের দর্শনার্থী স্থান।",
+      "approximate_lat": 22.657367,
+      "approximate_lng": 92.173352,
+      "source_url": "https://www.bssnews.net/bangla/national/169636",
+      "source_type": "BSS current tourism report",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "ডিভাইন লেক আইল্যান্ড রিসোর্ট",
+      "place_latin": "Divine Lake Island Resort",
+      "category": "island_resort",
+      "short_reason_bn": "কাপ্তাই হ্রদের দ্বীপভিত্তিক অবকাশ/দর্শন স্থান হিসেবে সমসাময়িক পর্যটন প্রতিবেদনে যাচাইযোগ্য।",
+      "approximate_lat": 22.708,
+      "approximate_lng": 92.228,
+      "source_url": "https://www.bssnews.net/bangla/national/169636",
+      "source_type": "BSS current tourism report",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "নিসর্গ পড হাউস (কাপ্তাই পড হাউস)",
+      "place_latin": "Nisarga Pod House / Kaptai Pod House",
+      "category": "resort_recreation",
+      "short_reason_bn": "কাপ্তাই লেকপাড়ের পড-হাউসধর্মী অবকাশস্থান; বর্তমান সংবাদে পর্যটন স্পট হিসেবে উল্লিখিত।",
+      "approximate_lat": 22.526,
+      "approximate_lng": 92.224,
+      "source_url": "https://www.bssnews.net/bangla/national/169636",
+      "source_type": "BSS current tourism report",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "বার্গী লেক ভ্যালি",
+      "place_latin": "Bargee Lake Valley",
+      "category": "lake_resort",
+      "short_reason_bn": "আসামবস্তী-কাপ্তাই সড়কের লেকভিত্তিক অবকাশ ও দর্শন স্থান; বর্তমান পর্যটন গাইড ও সংবাদে উল্লিখিত।",
+      "approximate_lat": 22.583,
+      "approximate_lng": 92.194,
+      "source_url": "https://www.bssnews.net/bangla/national/169636",
+      "source_type": "BSS current tourism report",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "হ্যাপি আইল্যান্ড",
+      "place_latin": "Happy Island",
+      "category": "island_lakeside",
+      "short_reason_bn": "ভেদভেদী সংলগ্ন কাপ্তাই হ্রদের ছোট দ্বীপ/লেকফ্রন্ট অবকাশস্থান হিসেবে ভ্রমণ গাইডে যাচাই করা হয়েছে।",
+      "approximate_lat": 22.664,
+      "approximate_lng": 92.177,
+      "source_url": "https://vromonguide.com/location/rangamati",
+      "source_type": "reputable travel guide",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "রাঙ্গা দ্বীপ",
+      "place_latin": "Ranga Dweep",
+      "category": "island_resort",
+      "short_reason_bn": "কাপ্তাই হ্রদের দ্বীপভিত্তিক পর্যটন/রিসোর্ট স্থান; ২০২৫ সালের BSS পর্যটন প্রতিবেদনে নামসহ উল্লিখিত।",
+      "approximate_lat": 22.709,
+      "approximate_lng": 92.218,
+      "source_url": "https://www.bssnews.net/bangla/national/169636",
+      "source_type": "BSS current tourism report",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "গাংচিল আইল্যান্ড",
+      "place_latin": "Gangchil Island",
+      "category": "island_lakeside",
+      "short_reason_bn": "কাপ্তাই হ্রদের কর্ণফুলী-মাইনি অববাহিকার দ্বীপ; ভ্রমণ গাইডে প্রাকৃতিক দর্শনস্থান হিসেবে বর্ণিত।",
+      "approximate_lat": 22.827,
+      "approximate_lng": 92.264,
+      "source_url": "https://vromonguide.com/location/rangamati",
+      "source_type": "reputable travel guide",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "কাপ্তাই জাতীয় উদ্যান",
+      "place_latin": "Kaptai National Park",
+      "category": "national_park",
+      "short_reason_bn": "কাপ্তাই উপজেলার সংরক্ষিত বনাঞ্চল ও বন্যপ্রাণী/প্রকৃতি দর্শনের প্রধান গন্তব্য।",
+      "approximate_lat": 22.499946,
+      "approximate_lng": 92.177386,
+      "source_url": "https://vromonguide.com/location/rangamati",
+      "source_type": "reputable travel guide",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "কাপ্তাই বাঁধ ও কর্ণফুলী জলবিদ্যুৎ কেন্দ্র",
+      "place_latin": "Kaptai Dam & Karnaphuli Hydropower Station",
+      "category": "river_dam_viewpoint",
+      "short_reason_bn": "কর্ণফুলী নদীর ওপর বাংলাদেশের একমাত্র জলবিদ্যুৎ প্রকল্প; বাঁধ ও জলাধারের দৃশ্য পর্যটন আকর্ষণ।",
+      "approximate_lat": 22.494134,
+      "approximate_lng": 92.225478,
+      "source_url": "https://mapy.com/en/?source=osm&id=1118783982",
+      "source_type": "OSM-indexed map listing + travel references",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "কর্ণফুলী পেপার মিলস, চন্দ্রঘোনা",
+      "place_latin": "Karnaphuli Paper Mills, Chandraghona",
+      "category": "industrial_heritage",
+      "short_reason_bn": "চন্দ্রঘোনার ঐতিহাসিক রাষ্ট্রায়ত্ত কাগজকল; জেলা প্রশাসনের পর্যটন স্পট পেজে শিল্প-ঐতিহ্য দর্শন হিসেবে তালিকাভুক্ত।",
+      "approximate_lat": 22.426,
+      "approximate_lng": 92.161,
+      "source_url": "https://rangamati.gov.bd/pages/tourist-spot/6990be2035ce18e1c07076a3",
+      "source_type": "Rangamati District Administration",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "চিৎমরম বৌদ্ধ বিহার",
+      "place_latin": "Chitmorom Buddhist Bihar",
+      "category": "buddhist_temple",
+      "short_reason_bn": "কাপ্তাই উপজেলার ঐতিহ্যবাহী খিয়াং/বৌদ্ধ বিহার; জেলা প্রশাসনের পর্যটন স্পট হিসেবে স্বীকৃত।",
+      "approximate_lat": 22.456,
+      "approximate_lng": 92.196,
+      "source_url": "http://rangamati.gov.bd/pages/tourist-spot/6990be2035ce18e1c07076a9",
+      "source_type": "Rangamati District Administration",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "ডলুছড়ি জেতবন বিহার",
+      "place_latin": "Doluchhari Jetban Bihar",
+      "category": "buddhist_temple",
+      "short_reason_bn": "রাঙ্গামাটির উল্লেখযোগ্য বৌদ্ধ ধর্মীয় প্রতিষ্ঠান ও দর্শনীয় স্থান হিসেবে ভ্রমণ গাইডে উল্লিখিত।",
+      "approximate_lat": 22.715,
+      "approximate_lng": 92.193,
+      "source_url": "https://vromonguide.com/location/rangamati",
+      "source_type": "reputable travel guide",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "তিনটিলা বনবিহার",
+      "place_latin": "Tin Tila Bon Bihar",
+      "category": "buddhist_temple",
+      "short_reason_bn": "লংগদু উপজেলার বৌদ্ধ ধর্মাবলম্বীদের প্রধান ধর্মীয় প্রতিষ্ঠান; সরকারি জেলা পর্যটন পেজের সার্চ-ইনডেক্সে নাম ও বিবরণ পাওয়া যায়।",
+      "approximate_lat": 22.964,
+      "approximate_lng": 92.294,
+      "source_url": "http://rangamati.gov.bd/pages/tourist-spot",
+      "source_type": "Rangamati District Administration",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "নির্বাণ নগর বন বিহার",
+      "place_latin": "Nirban Nagar Buddhist Temple",
+      "category": "buddhist_temple",
+      "short_reason_bn": "কাপ্তাই হ্রদের দ্বীপে বড় বুদ্ধমূর্তি-সহ বৌদ্ধ মন্দির; কাপ্তাই লেক ভ্রমণের স্বীকৃত উপ-আকর্ষণ।",
+      "approximate_lat": 22.755,
+      "approximate_lng": 92.227,
+      "source_url": "https://bangla.thedailystar.net/life-living/travel/news-501446",
+      "source_type": "reputable travel press",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "চাকমা রাজবাড়ি",
+      "place_latin": "Chakma Rajbari",
+      "category": "heritage_cultural",
+      "short_reason_bn": "কাপ্তাই হ্রদ ঘিরে চাকমা রাজপরিবারের ঐতিহ্যবাহী স্থান হিসেবে পর্যটন গাইডে উল্লিখিত; বর্তমান প্রবেশাধিকার/দৃশ্যমানতা সীমিত হতে পারে।",
+      "approximate_lat": 22.731,
+      "approximate_lng": 92.22,
+      "source_url": "https://huntingworldbeauty.com/tourist-places-in-rangamati/",
+      "source_type": "reputable travel guide",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "সাজেক ভ্যালি",
+      "place_latin": "Sajek Valley",
+      "category": "hill_viewpoint",
+      "short_reason_bn": "বাঘাইছড়ির কাসালং রেঞ্জের পাহাড়ি উপত্যকা; Beautiful Bangladesh ও BSS-এ রাঙ্গামাটির পর্যটন গন্তব্য হিসেবে যাচাই করা।",
+      "approximate_lat": 23.390922,
+      "approximate_lng": 92.285505,
+      "source_url": "https://beautifulbangladesh.gov.bd/district-destination/rangamati/hill-tracts-waterfalls/11",
+      "source_type": "Bangladesh Tourism Board / Beautiful Bangladesh",
+      "confidence": "high",
+      "complex_note": "প্রশাসনিকভাবে রাঙ্গামাটি; প্রচলিত যাতায়াত খাগড়াছড়ি হয়ে।"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "ফুরোমন পাহাড়",
+      "place_latin": "Furomon Hill",
+      "category": "hill_viewpoint",
+      "short_reason_bn": "শহরের নিকট ট্রেকিংযোগ্য পাহাড়; চূড়া থেকে কাপ্তাই হ্রদ ও পাহাড়ের বিস্তৃত দৃশ্য দেখা যায়।",
+      "approximate_lat": 22.67404,
+      "approximate_lng": 92.110693,
+      "source_url": "https://bangla.thedailystar.net/life-living/travel/news-501446",
+      "source_type": "reputable travel press",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "কালিতাং তুগ/কালিতাং তুগু",
+      "place_latin": "Kaliteng Tugh",
+      "category": "hill_viewpoint",
+      "short_reason_bn": "শুভলং অঞ্চলের উচ্চ পাহাড়চূড়া; ওপর থেকে রাঙ্গামাটি শহর, কাপ্তাই হ্রদ ও মিজোরাম দেখা যায় বলে ভ্রমণ প্রতিবেদনে বর্ণিত।",
+      "approximate_lat": 22.825,
+      "approximate_lng": 92.19,
+      "source_url": "https://bangla.thedailystar.net/life-living/travel/news-501446",
+      "source_type": "reputable travel press",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "ধুপপানি ঝরনা",
+      "place_latin": "Dhuppani Waterfall",
+      "category": "waterfall",
+      "short_reason_bn": "বিলাইছড়ির দুর্গম ওড়াছড়ি এলাকায়; নৌপথ ও ট্রেকিং মিলিয়ে পৌঁছানো যায়, পাদদেশে ভান্তের আশ্রম আছে।",
+      "approximate_lat": 22.575,
+      "approximate_lng": 92.407,
+      "source_url": "https://bangla.thedailystar.net/life-living/travel/news-501446",
+      "source_type": "reputable travel press",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "মুপ্পোছড়া ঝরনা",
+      "place_latin": "Muppochora Waterfall",
+      "category": "waterfall",
+      "short_reason_bn": "বিলাইছড়ির বাংলেকাটা এলাকায় বহু-ধাপের/প্রশস্ত ঝরনা; সরকারি বিলাইছড়ি পর্যটন তালিকায় নাম আছে।",
+      "approximate_lat": 22.6,
+      "approximate_lng": 92.405,
+      "source_url": "http://belaichari.rangamati.gov.bd/pages/tourist-spot",
+      "source_type": "Rangamati Bilaichhari Upazila Administration",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "গাছকাটা ছড়া ঝরনা",
+      "place_latin": "Gachhkata Chhara Waterfall",
+      "category": "waterfall",
+      "short_reason_bn": "বিলাইছড়ি উপজেলা প্রশাসনের পর্যটন তালিকায় থাকা নৌপথ-ট্রেকিং ঝরনা; ন-কাটা/নকাটা নামে প্রচলিত একই স্থানের সম্ভাব্য বানানভেদ নোট করা হলো।",
+      "approximate_lat": 22.595,
+      "approximate_lng": 92.41,
+      "source_url": "http://belaichari.rangamati.gov.bd/pages/tourist-spot",
+      "source_type": "Rangamati Bilaichhari Upazila Administration",
+      "confidence": "high",
+      "complex_note": "ন-কাটা/নকাটা ঝরনা নামটি একই জলপ্রপাতের বানানভেদ হিসেবে ব্যবহার হয়; আলাদা স্থান ধরে দ্বৈত গণনা করা হয়নি।"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "হাজাছড়া/শুকনাছড়া ঝরনা",
+      "place_latin": "Hazachora / Shuknachara Waterfall",
+      "category": "waterfall",
+      "short_reason_bn": "বাঘাইছড়ি উপজেলার পরিচিত জলপ্রপাত; ভ্রমণ গাইডে বিকল্প নামসহ উল্লেখ আছে।",
+      "approximate_lat": 23.316,
+      "approximate_lng": 92.27,
+      "source_url": "https://vromonguide.com/location/rangamati",
+      "source_type": "reputable travel guide",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "সাহস বান্দা ঝরনা",
+      "place_latin": "Sahas Banda Waterfall",
+      "category": "waterfall",
+      "short_reason_bn": "বন্দুকভাঙ্গা ইউনিয়নের সাহস বান্দা গ্রামের স্থানীয় দর্শনীয় ঝরনা; ইউনিয়ন সরকারি পোর্টালে পর্যটন স্পট হিসেবে ইনডেক্সড।",
+      "approximate_lat": 22.806,
+      "approximate_lng": 92.209,
+      "source_url": "https://bandukbhangaup.rangamati.gov.bd/pages/tourist-spot/6990be1d35ce18e1c07076d5",
+      "source_type": "Rangamati Union Administration",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "সীতা পাহাড়",
+      "place_latin": "Sita Pahar",
+      "category": "hill_viewpoint",
+      "short_reason_bn": "রাইখালী ইউনিয়নের সরকারি পর্যটন স্পট তালিকায় থাকা পাহাড়ি দর্শনস্থান; স্থানীয় দর্শনার্থী গন্তব্য হিসেবে রাখা হয়েছে।",
+      "approximate_lat": 22.438,
+      "approximate_lng": 92.208,
+      "source_url": "https://raikhaliup.rangamati.gov.bd/pages/tourist-spot/%E0%A6%B8%E0%A7%80%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A7%9C-c033e2-6990be2435ce18e1c070789c",
+      "source_type": "Rangamati Union Administration",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "বীরশ্রেষ্ঠ মুন্সী আব্দুর রউফ স্মৃতিসৌধ",
+      "place_latin": "Bir Sreshtho Munshi Abdur Rouf Memorial",
+      "category": "memorial_heritage",
+      "short_reason_bn": "নানিয়ারচর উপজেলার বুড়িঘাটের দ্বীপে অবস্থিত মুক্তিযুদ্ধের স্মৃতিসৌধ; BSS ও উপজেলা পোর্টালের দর্শনীয় স্থান তালিকায় উল্লিখিত।",
+      "approximate_lat": 22.788,
+      "approximate_lng": 92.195,
+      "source_url": "https://www.bssnews.net/bangla/national/169636",
+      "source_type": "BSS current tourism report",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "ওয়াগ্গাছড়া চা বাগান",
+      "place_latin": "Waggachara Tea Garden",
+      "category": "tea_garden_landscape",
+      "short_reason_bn": "কাপ্তাই উপজেলার কর্ণফুলী তীরবর্তী চা-বাগান; ভ্রমণ সংবাদে পর্যটকদের মনোরম দর্শনস্থান হিসেবে বর্ণিত।",
+      "approximate_lat": 22.482,
+      "approximate_lng": 92.183,
+      "source_url": "https://nirapadnews.com/travel/%E0%A6%95%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%87-%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%97%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%9B%E0%A7%9C%E0%A6%BE-%E0%A6%9A%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A7%83%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%B8%E0%A7%8C%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A6ର୍ଯ୍ୟটকদের-মুগ্ধ-করবে",
+      "source_type": "reputable travel news",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "নৌবাহিনী পিকনিক স্পট",
+      "place_latin": "Navy Picnic Spot, Rangamati",
+      "category": "picnic_spot",
+      "short_reason_bn": "রাঙ্গামাটির জনপ্রিয় পিকনিক/দিনভ্রমণ স্পট হিসেবে ভ্রমণ গাইডে নামসহ উল্লেখিত; প্রবেশ নীতিমালা পরিবর্তনশীল হতে পারে।",
+      "approximate_lat": 22.652,
+      "approximate_lng": 92.186,
+      "source_url": "https://vromonguide.com/location/rangamati",
+      "source_type": "reputable travel guide",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "সুখী নীলগঞ্জ পার্ক",
+      "place_latin": "Sukhi Nilganj Park",
+      "category": "park_recreation",
+      "short_reason_bn": "জেলা পুলিশের পরিচালিত/সংযুক্ত পাবলিক পার্ক হিসেবে ২০২৫ সালের BSS পর্যটন প্রতিবেদনে উল্লেখিত।",
+      "approximate_lat": 22.65,
+      "approximate_lng": 92.174,
+      "source_url": "https://www.bssnews.net/bangla/national/169636",
+      "source_type": "BSS current tourism report",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "ফিসারী ঘাট",
+      "place_latin": "Fisheries Ghat",
+      "category": "riverside_ghat",
+      "short_reason_bn": "কাপ্তাই হ্রদে নৌভ্রমণের জন্য শহরের জনসাধারণের ব্যবহৃত ঘাট; BSS-এ পর্যটক নৌকা ভাড়ার স্থান হিসেবে উল্লিখিত।",
+      "approximate_lat": 22.641,
+      "approximate_lng": 92.175,
+      "source_url": "https://www.bssnews.net/bangla/national/169636",
+      "source_type": "BSS current tourism report",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "রিজার্ভ বাজার ঘাট",
+      "place_latin": "Reserve Bazar Ghat",
+      "category": "riverside_ghat",
+      "short_reason_bn": "কাপ্তাই হ্রদের স্পিডবোট/কান্ট্রি বোটের পর্যটন ঘাট; Beautiful Bangladesh ও BSS-এ নৌযাত্রার প্রবেশবিন্দু।",
+      "approximate_lat": 22.637,
+      "approximate_lng": 92.174,
+      "source_url": "https://beautifulbangladesh.gov.bd/loc/chattogram/123",
+      "source_type": "Bangladesh Tourism Board / Beautiful Bangladesh",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "পর্যটন ঘাট",
+      "place_latin": "Tourist Ghat, Rangamati",
+      "category": "riverside_ghat",
+      "short_reason_bn": "কাপ্তাই হ্রদ ভ্রমণের নৌকা ছাড়ার পাবলিক ঘাট; শুভলংসহ বিভিন্ন গন্তব্যে যাওয়ার ব্যবহারিক প্রবেশবিন্দু।",
+      "approximate_lat": 22.636,
+      "approximate_lng": 92.184,
+      "source_url": "https://beautifulbangladesh.gov.bd/district-destination/rangamati/hill-tracts-waterfalls/135",
+      "source_type": "Bangladesh Tourism Board / Beautiful Bangladesh",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "উন্নয়ন বোর্ড ঘাট",
+      "place_latin": "Development Board Ghat",
+      "category": "riverside_ghat",
+      "short_reason_bn": "BSS-এর বর্তমান পর্যটন প্রতিবেদনে কাপ্তাই হ্রদ ভ্রমণের নৌকা ভাড়ার ঘাট হিসেবে নামসহ উল্লিখিত।",
+      "approximate_lat": 22.643,
+      "approximate_lng": 92.181,
+      "source_url": "https://www.bssnews.net/bangla/national/169636",
+      "source_type": "BSS current tourism report",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "তবলছড়ি পর্যটন ঘাট",
+      "place_latin": "Tabalchhari Tourist Wharf",
+      "category": "riverside_ghat",
+      "short_reason_bn": "Beautiful Bangladesh-এর কাপ্তাই লেক তথ্য অনুযায়ী স্পিডবোট/নৌকা ভাড়ার জনসাধারণের প্রবেশবিন্দু।",
+      "approximate_lat": 22.649,
+      "approximate_lng": 92.185,
+      "source_url": "https://beautifulbangladesh.gov.bd/loc/chattogram/123",
+      "source_type": "Bangladesh Tourism Board / Beautiful Bangladesh",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "কর্ণফুলী নদীর কাপ্তাই তীর",
+      "place_latin": "Karnaphuli River at Kaptai",
+      "category": "riverside",
+      "short_reason_bn": "কাপ্তাই বাঁধ ও জলবিদ্যুৎ কেন্দ্রের নিচের/সংলগ্ন কর্ণফুলী নদীতীর; বাঁধ-জলাধার দৃশ্যের সঙ্গে দর্শনীয় নদীপথ।",
+      "approximate_lat": 22.494,
+      "approximate_lng": 92.225,
+      "source_url": "https://mapy.com/en/?source=osm&id=1118783982",
+      "source_type": "OSM-indexed map listing + travel references",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "রাঙ্গামাটি",
+      "place_bn": "রাঙ্গামাটি পাহাড়ি তাঁত/টেক্সটাইল মার্কেট",
+      "place_latin": "Rangamati Textile Market",
+      "category": "cultural_market",
+      "short_reason_bn": "সরকারি জেলা পর্যটন তালিকায় থাকা পাহাড়ি তাঁত ও হস্তশিল্প কেনাকাটার পাবলিক সাংস্কৃতিক আকর্ষণ।",
+      "approximate_lat": 22.639,
+      "approximate_lng": 92.174,
+      "source_url": "http://rangamati.gov.bd/pages/tourist-spot",
+      "source_type": "Rangamati District Administration",
+      "confidence": "high"
+    }
+  ],
+  "sources": [
+    {
+      "url": "http://rangamati.gov.bd/pages/tourist-spot",
+      "title": "রাঙ্গামাটি পার্বত্য জেলা—পর্যটন স্পট",
+      "source_type": "official district administration",
+      "access_note": "সরকারি জেলা পোর্টালের তালিকায় ৩৫টি এন্ট্রি; দৃশ্যমান প্রথম পাতায় বনশ্রী, জাদুঘর, পার্ক, পেদা টিং টিং, টেক্সটাইল মার্কেট, ঝুলন্ত ব্রিজ, আরণ্যক, রাইন্যা টুগুন, নীলাদ্রি ও ডিসি বাংলো পার্ক।"
+    },
+    {
+      "url": "https://beautifulbangladesh.gov.bd/loc/chattogram/123",
+      "title": "Kaptai Lake — Beautiful Bangladesh",
+      "source_type": "Bangladesh Tourism Board",
+      "access_note": "হ্রদ, দ্বীপ, নৌভ্রমণ ও রিজার্ভ বাজার/তবলছড়ি/পর্যটন ঘাটের প্রবেশ তথ্য।"
+    },
+    {
+      "url": "https://beautifulbangladesh.gov.bd/district-destination/rangamati/hill-tracts-waterfalls/135",
+      "title": "Shuvolong Waterfall — Beautiful Bangladesh",
+      "source_type": "Bangladesh Tourism Board",
+      "access_note": "নৌপথে প্রবেশ ও শুভলং ঝরনার বিবরণ।"
+    },
+    {
+      "url": "https://beautifulbangladesh.gov.bd/district-destination/chattogram/island/136",
+      "title": "Peda Ting Ting Island — Beautiful Bangladesh",
+      "source_type": "Bangladesh Tourism Board",
+      "access_note": "কাপ্তাই হ্রদের দ্বীপ ও পর্যটক-অ্যাক্সেস।"
+    },
+    {
+      "url": "https://beautifulbangladesh.gov.bd/district-destination/rangamati/hill-tracts-waterfalls/11",
+      "title": "Sajek Valley — Beautiful Bangladesh",
+      "source_type": "Bangladesh Tourism Board",
+      "access_note": "রাঙ্গামাটি জেলার পাহাড়ি গন্তব্য হিসেবে বর্ণনা।"
+    },
+    {
+      "url": "https://bangla.thedailystar.net/life-living/travel/news-501446",
+      "title": "কী দেখবেন রাঙ্গামাটিতে",
+      "source_type": "reputable travel press",
+      "access_note": "কাপ্তাই হ্রদ, নির্বাণ নগর, শুভলং, ধুপপানি, ফুরোমন, ঝুলন্ত সেতু, রাজবন, পলওয়েল ও কালিতাং তুগ।"
+    },
+    {
+      "url": "https://www.bssnews.net/bangla/national/169636",
+      "title": "পর্যটকদের পদভারে মুখরিত পাহাড়ি কন্যা রাঙ্গামাটি",
+      "source_type": "Bangladesh Sangbad Sangstha (BSS)",
+      "access_note": "২০২৫ সালের বর্তমান পর্যটন প্রতিবেদনে ঘাট, পার্ক, রিসোর্ট, দ্বীপ, স্মৃতিসৌধ ও উপজেলা-ভিত্তিক স্পট।"
+    },
+    {
+      "url": "https://vromonguide.com/location/rangamati",
+      "title": "রাঙ্গামাটি জেলার দর্শনীয় স্থান",
+      "source_type": "reputable travel guide",
+      "access_note": "কাপ্তাই জাতীয় উদ্যান, বৌদ্ধ বিহার, দ্বীপ, ঝরনা, পিকনিক স্পট ও রিসোর্টের বিস্তৃত তালিকা।"
+    },
+    {
+      "url": "https://huntingworldbeauty.com/tourist-places-in-rangamati/",
+      "title": "Tourist places in Rangamati",
+      "source_type": "reputable travel guide",
+      "access_note": "কাপ্তাই লেক, ফুরোমন, রাজবন, ধুপপানি, মুপ্পোছড়া, ন-কাটা/গাছকাটা, চাকমা রাজবাড়ি ও দ্বীপ-রিসোর্ট।"
+    },
+    {
+      "url": "http://belaichari.rangamati.gov.bd/pages/tourist-spot",
+      "title": "বিলাইছড়ি উপজেলা—পর্যটন স্পট",
+      "source_type": "official upazila administration",
+      "access_note": "মুপ্পোছড়া, গাছকাটা ছড়া ও ধুপপানি ঝরনা সরকারি তালিকায়।"
+    },
+    {
+      "url": "https://rangamati.gov.bd/pages/tourist-spot/6990be2035ce18e1c07076a3",
+      "title": "কর্ণফুলি পেপার মিলস—পর্যটন স্পট",
+      "source_type": "official district administration",
+      "access_note": "চন্দ্রঘোনার ঐতিহাসিক কাগজকলের সরকারি পর্যটন পেজ।"
+    },
+    {
+      "url": "http://rangamati.gov.bd/pages/tourist-spot/6990be2035ce18e1c07076a9",
+      "title": "চিৎমরম বৌদ্ধ বিহার—পর্যটন স্পট",
+      "source_type": "official district administration",
+      "access_note": "কাপ্তাই উপজেলার ঐতিহ্যবাহী বৌদ্ধ বিহারের সরকারি পেজ।"
+    },
+    {
+      "url": "https://mapy.com/en/?source=osm&id=1118783982",
+      "title": "Kaptai Dam — OSM-indexed map listing",
+      "source_type": "map-indexed public listing",
+      "access_note": "কাপ্তাই বাঁধের নাম, অবস্থান ও জনসাধারণের মানচিত্র-অ্যাক্সেস।"
+    },
+    {
+      "url": "https://nirapadnews.com/travel/%E0%A6%95%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%87-%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%97%E0%A7%8D%E0%A6%97%E0%A6%BE%E0%A6%9B%E0%A7%9C%E0%A6%BE-%E0%A6%9A%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A7%83%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%B8%E0%A7%8C%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%B0%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A6ର୍ଯ୍ୟটকদের-মুগ্ধ-করবে",
+      "title": "কাপ্তাই ওয়াগ্গাছড়া চা-বাগানের প্রাকৃতিক সৌন্দর্য",
+      "source_type": "reputable travel news",
+      "access_note": "ওয়াগ্গাছড়া চা-বাগানকে পর্যটন-দর্শনস্থান হিসেবে বর্ণনা।"
+    },
+    {
+      "url": "https://www.polwelpark.com/",
+      "title": "Polwel Park & Cottage",
+      "source_type": "current public listing",
+      "access_note": "পার্ক ও কটেজ কমপ্লেক্সের বর্তমান পাবলিক লিস্টিং; পার্ক-ভিত্তিক দর্শনার্থী ব্যবহার।"
+    }
+  ],
+  "excluded_or_uncertain": [
+    {
+      "name": "বেতবুনিয়া ভূ-উপগ্রহ কেন্দ্র",
+      "reason_bn": "ভ্রমণ গাইডে দর্শনীয় স্থান হিসেবে নাম আছে, কিন্তু বর্তমান সরকারি/পাবলিক visitor access নিশ্চিত করার মতো নির্ভরযোগ্য পেজ পাওয়া যায়নি; তাই মূল places-এ রাখা হয়নি।",
+      "sources": [
+        "https://vromonguide.com/location/rangamati"
+      ]
+    },
+    {
+      "name": "চাকমা রাজবাড়ি—ভিতরের অংশ",
+      "reason_bn": "ঐতিহাসিক নামটি একাধিক গাইডে আছে, তবে কাপ্তাই হ্রদের কারণে মূল স্থানের বর্তমান দৃশ্যমানতা/প্রবেশ সীমিত হতে পারে; place-এ সতর্ক medium confidence-এ রাখা হয়েছে।",
+      "sources": [
+        "https://huntingworldbeauty.com/tourist-places-in-rangamati/"
+      ]
+    },
+    {
+      "name": "ন-কাটা ঝরনা",
+      "reason_bn": "সরকারি বিলাইছড়ি তালিকার গাছকাটা ছড়া ঝরনার সঙ্গে একই স্থানের বানানভেদ হওয়ার শক্তিশালী ইঙ্গিত; ডুপ্লিকেট হিসেবে বাদ।",
+      "sources": [
+        "http://belaichari.rangamati.gov.bd/pages/tourist-spot",
+        "https://huntingworldbeauty.com/tourist-places-in-rangamati/"
+      ]
+    },
+    {
+      "name": "প্যানোরমা জুম রেস্তোরা, পেদা টিং টিং রেস্তোরা, চ্যাং পাং রেস্টুরেন্ট",
+      "reason_bn": "সাধারণ খাবারের দোকান/রেস্তোরাঁ; ব্যবহারকারী নির্দেশনা অনুযায়ী আলাদা visitor destination হিসেবে বাদ।",
+      "sources": [
+        "https://vromonguide.com/location/rangamati",
+        "https://huntingworldbeauty.com/tourist-places-in-rangamati/"
+      ]
+    },
+    {
+      "name": "সাধারণ হোটেল ও আবাসিক রিসোর্ট",
+      "reason_bn": "শুধু থাকার ব্যবস্থা হলে বাদ; কেবল যেসব কমপ্লেক্সের park/island/ecovillage/day-visitor attraction যাচাই হয়েছে সেগুলো রাখা হয়েছে।",
+      "sources": [
+        "https://www.bssnews.net/bangla/national/169636",
+        "https://huntingworldbeauty.com/tourist-places-in-rangamati/"
+      ]
+    },
+    {
+      "name": "অযাচাইকৃত সামাজিক-মাধ্যমের ৫০+ তালিকার অতিরিক্ত নাম",
+      "reason_bn": "শুধু ফেসবুক/ইউটিউব দাবির ওপর নির্ভর করে নাম যোগ করা হয়নি; সরকারি, সংবাদ, নির্ভরযোগ্য গাইড বা মানচিত্র-ইনডেক্স প্রয়োজন ছিল।",
+      "sources": []
+    }
+  ],
+  "coverage_note": "এটি ক্ষুদ্র shortlist নয়; ৪৯টি ডিডুপ্লিকেটেড নাম/গন্তব্যে প্রাকৃতিক, জলভিত্তিক, ঘাট, পাহাড়/ভিউপয়েন্ট, পার্ক/ইকো-রিসোর্ট, জাদুঘর/সংস্কৃতি, ধর্মীয়/ঐতিহ্য, স্মৃতিসৌধ, চা-বাগান ও শিল্প-ঐতিহ্য কভার করা হয়েছে। একই কমপ্লেক্সের উপ-আকর্ষণ complex_note-এ রাখা হয়েছে। জেলা-সীমানা ধরে সাজেককে রাখা হয়েছে; যাতায়াত সাধারণত খাগড়াছড়ি হয়ে। আক্ষরিক exhaustiveness দাবি করা হচ্ছে না, এবং যেসব স্থানে প্রবেশাধিকার পরিবর্তনশীল সেখানে confidence কমানো হয়েছে।"
+}

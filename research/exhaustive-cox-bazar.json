@@ -1,0 +1,977 @@
+{
+  "district_bn": "কক্সবাজার",
+  "researched_at_note": "ওয়েব গবেষণা স্ন্যাপশট: ২০২৬-১০-০৫। সরকারি জেলা/উপজেলা ও বাংলাদেশ ট্যুরিজম বোর্ড পেজ, Beautiful Bangladesh/GIS, Bangladesh Forest Department atlas/সংরক্ষিত এলাকার প্রতিবেদন, Bangla/English সংবাদ-ভ্রমণ লেখা, Banglapedia/UNESCO/প্রত্নতত্ত্বের সাইট-সার্চ, পর্যটন গাইড এবং পাবলিক ম্যাপ/লিস্টিং খোঁজা হয়েছে। Banglapedia/UNESCO/প্রত্নতত্ত্ব অনুসন্ধানে কক্সবাজারের জন্য এই তালিকার বাইরে অতিরিক্ত visitor-accessible নামযুক্ত সাইট নিশ্চিত করা যায়নি। কোনো পাবলিক ওয়েব তালিকা আক্ষরিক অর্থে সম্পূর্ণতার নিশ্চয়তা দিতে পারে না; এখানে নামযুক্ত এবং অন্তত একটি যাচাইযোগ্য উৎসে visitor-accessible হিসেবে পাওয়া স্থানগুলো deduplicate করা হয়েছে।",
+  "places": [
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "কক্সবাজার সমুদ্র সৈকত",
+      "place_latin": "Coxs Bazar Sea Beach",
+      "category": "beach",
+      "short_reason_bn": "জেলার প্রধান দীর্ঘ প্রাকৃতিক বালুকাবেলা ও সর্বাধিক জনপরিদর্শিত উপকূল।",
+      "approximate_lat": 21.4272,
+      "approximate_lng": 91.9762,
+      "source_url": "https://beautifulbangladesh.gov.bd/cat/spring/12",
+      "source_type": "official tourism",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "লাবণী পয়েন্ট সৈকত",
+      "place_latin": "Laboni Point Beach",
+      "category": "beach",
+      "short_reason_bn": "শহরের কেন্দ্রীয়, উন্মুক্ত ও জনপ্রিয় সৈকত-পয়েন্ট।",
+      "approximate_lat": 21.4144,
+      "approximate_lng": 91.976,
+      "source_url": "https://vromonguide.com/location/coxsbazar",
+      "source_type": "travel guide/public listing",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "সুগন্ধা সৈকত",
+      "place_latin": "Sugandha Beach",
+      "category": "beach",
+      "short_reason_bn": "শহরের সমুদ্রসৈকতের স্বীকৃত উপ-পয়েন্ট; ভ্রমণগাইডে পৃথক নাম।",
+      "approximate_lat": 21.4215,
+      "approximate_lng": 91.98,
+      "source_url": "https://vromonguide.com/location/coxsbazar",
+      "source_type": "travel guide/public listing",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "কলাতলী সৈকত",
+      "place_latin": "Kolatoli Beach",
+      "category": "beach",
+      "short_reason_bn": "শহরের পর্যটন এলাকার স্বীকৃত সৈকত-পয়েন্ট।",
+      "approximate_lat": 21.4088,
+      "approximate_lng": 91.9837,
+      "source_url": "https://vromonguide.com/location/coxsbazar",
+      "source_type": "travel guide/public listing",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "হিমছড়ি সৈকত",
+      "place_latin": "Himchari Beach",
+      "category": "beach",
+      "short_reason_bn": "হিমছড়ি পাহাড় ও জাতীয় উদ্যানসংলগ্ন শান্ত সৈকত।",
+      "approximate_lat": 21.335,
+      "approximate_lng": 91.96,
+      "source_url": "https://sharetrip.net/travel-guide/post/places-to-visit-in-coxs-bazar",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "ইনানী সৈকত",
+      "place_latin": "Inani Beach",
+      "category": "beach",
+      "short_reason_bn": "কোরাল-পাথরযুক্ত বিখ্যাত উপকূল, মেরিন ড্রাইভের প্রধান স্টপ।",
+      "approximate_lat": 21.2,
+      "approximate_lng": 92.05,
+      "source_url": "https://www.thedailystar.net/weekend-read/news/exploring-the-wonders-around-coxs-bazar-3869126",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "পাটোয়ারটেক সৈকত",
+      "place_latin": "Patuartek Beach",
+      "category": "beach",
+      "short_reason_bn": "ইনানীর দক্ষিণে কোরাল-পাথর, লাল কাঁকড়া ও নিরিবিলি উপকূল; পর্যটন প্রতিবেদনভিত্তিক।",
+      "approximate_lat": 21.152,
+      "approximate_lng": 92.072,
+      "source_url": "https://coxsbazarlife.com/patuartek-the-tranquil-coral-stone-beach-capturing-tourists-hearts/",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "নাজিরারটেক সৈকত",
+      "place_latin": "Nazirartek Beach",
+      "category": "beach",
+      "short_reason_bn": "শহরের দক্ষিণে মাছধরা, শুঁটকি ও লাল কাঁকড়া দেখার উপকূল।",
+      "approximate_lat": 21.37,
+      "approximate_lng": 91.958,
+      "source_url": "https://www.thedailystar.net/weekend-read/news/exploring-the-wonders-around-coxs-bazar-3869126",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "টেকনাফ সমুদ্র সৈকত",
+      "place_latin": "Teknaf Sea Beach",
+      "category": "beach",
+      "short_reason_bn": "টেকনাফ উপদ্বীপের শান্ত, পাহাড়-সমুদ্রঘেরা দর্শনীয় সৈকত।",
+      "approximate_lat": 20.869,
+      "approximate_lng": 92.305,
+      "source_url": "https://gis.beautifulbangladesh.gov.bd/spot/teknaf-sea-beach",
+      "source_type": "official tourism",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "শামলাপুর সৈকত",
+      "place_latin": "Shamlapur Beach",
+      "category": "beach",
+      "short_reason_bn": "মেরিন ড্রাইভের উপকূলীয় ভ্রমণ-স্টপ হিসেবে প্রকাশ্য গাইডে তালিকাভুক্ত।",
+      "approximate_lat": 21.101,
+      "approximate_lng": 92.14,
+      "source_url": "https://sharetrip.net/travel-guide/post/places-to-visit-in-coxs-bazar",
+      "source_type": "reputable travel/news",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "মারিশ বনিয়া সমুদ্র সৈকত",
+      "place_latin": "Marish Bonia Sea Beach",
+      "category": "beach",
+      "short_reason_bn": "টেকনাফের কাছে পাহাড় ও সাগরের মাঝের নিরিবিলি সৈকত।",
+      "approximate_lat": 20.999,
+      "approximate_lng": 92.172,
+      "source_url": "https://sharetrip.net/travel-guide/post/places-to-visit-in-coxs-bazar",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "মহেশখালী সমুদ্র সৈকত",
+      "place_latin": "Maheshkhali Sea Beach",
+      "category": "beach",
+      "short_reason_bn": "দ্বীপের দীর্ঘ সাদা-বালির সৈকত; সাঁতার/কায়াকিংসহ ভ্রমণ আকর্ষণ।",
+      "approximate_lat": 21.5,
+      "approximate_lng": 91.94,
+      "source_url": "https://bangla.thedailystar.net/life-living/travel/news-557616",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "কুতুবদিয়া সমুদ্র সৈকত",
+      "place_latin": "Kutubdia Sea Beach",
+      "category": "beach",
+      "short_reason_bn": "কুতুবদিয়া দ্বীপের নির্জন সৈকত ও সূর্যাস্তের স্থান।",
+      "approximate_lat": 21.8,
+      "approximate_lng": 91.85,
+      "source_url": "https://adarbepari.com/location/coxsbazar/page/2",
+      "source_type": "travel guide/public listing",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "সেন্ট মার্টিন দ্বীপ",
+      "place_latin": "Saint Martins Island",
+      "category": "island/beach",
+      "short_reason_bn": "টেকনাফের দক্ষিণে বাংলাদেশের একমাত্র প্রবাল দ্বীপ; পর্যটন প্রবেশ মৌসুমি/নিয়ন্ত্রিত হতে পারে।",
+      "approximate_lat": 20.622,
+      "approximate_lng": 92.322,
+      "source_url": "https://en.prothomalo.com/environment/teknaf-where-emerald-hills-meet-the-bluest-sea",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "শাহপরীর দ্বীপ",
+      "place_latin": "Shah Porir Dwip",
+      "category": "island/beach",
+      "short_reason_bn": "সাবরাং-টেকনাফের দক্ষিণ সীমান্ত দ্বীপ; তিন সৈকত, মোহনা ও সীমান্তদৃশ্য।",
+      "approximate_lat": 20.79,
+      "approximate_lng": 92.315,
+      "source_url": "https://www.thedailystar.net/lifestyle/travelogue/visit-shah-porir-island-and-netong-monsoon-where-the-ocean-rivers-forests-and",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "মাতারবাড়ী সমুদ্র সৈকত",
+      "place_latin": "Matarbari Sea Beach",
+      "category": "beach",
+      "short_reason_bn": "মহেশখালী উপজেলার দ্বীপের সমুদ্রসৈকত; আঞ্চলিক ভ্রমণ প্রতিবেদনে দর্শনীয়।",
+      "approximate_lat": 21.68,
+      "approximate_lng": 91.95,
+      "source_url": "https://bangla.thedailystar.net/life-living/travel/news-557616",
+      "source_type": "reputable travel/news",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "শরইতলা সমুদ্র সৈকত",
+      "place_latin": "Sharaitola Sea Beach",
+      "category": "beach",
+      "short_reason_bn": "ধলঘাটা দ্বীপের নামযুক্ত সৈকত; মহেশখালী ভ্রমণ প্রতিবেদনে উল্লেখিত।",
+      "approximate_lat": 21.615,
+      "approximate_lng": 91.97,
+      "source_url": "https://bangla.thedailystar.net/life-living/travel/news-557616",
+      "source_type": "reputable travel/news",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "সোনাদিয়া দ্বীপ",
+      "place_latin": "Sonadia Island",
+      "category": "island/coastal wetland",
+      "short_reason_bn": "ম্যাংগ্রোভ, প্যারাবন, পাখি, কচ্ছপ ও লাল কাঁকড়ার পরিবেশসমৃদ্ধ দ্বীপ।",
+      "approximate_lat": 21.475,
+      "approximate_lng": 91.84,
+      "source_url": "https://www.thedailystar.net/weekend-read/news/exploring-the-wonders-around-coxs-bazar-3869126",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "রেজু খাল",
+      "place_latin": "Reju Khal",
+      "category": "riverside/ghat",
+      "short_reason_bn": "মেরিন ড্রাইভের নৌভ্রমণ ও কায়াকিংয়ের শান্ত খাল।",
+      "approximate_lat": 21.265,
+      "approximate_lng": 92.018,
+      "source_url": "https://www.thedailystar.net/weekend-read/news/exploring-the-wonders-around-coxs-bazar-3869126",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "নাফ নদী—টেকনাফ জেটি",
+      "place_latin": "Naf River Teknaf Jetty",
+      "category": "riverside/ghat",
+      "short_reason_bn": "জেটি থেকে নাফ নদী, আরাকান পাহাড় ও সীমান্তদৃশ্য দেখা যায়।",
+      "approximate_lat": 20.866,
+      "approximate_lng": 92.305,
+      "source_url": "https://en.prothomalo.com/environment/teknaf-where-emerald-hills-meet-the-bluest-sea",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "মাছকারিয়া শাপলা বিল",
+      "place_latin": "Maskaria Shapla Beel",
+      "category": "haor/beel",
+      "short_reason_bn": "উখিয়ার লাল শাপলা ও অতিথি পাখির মৌসুমি জলাভূমি; ভ্রমণগাইডে বর্ণিত।",
+      "approximate_lat": 21.17,
+      "approximate_lng": 92.12,
+      "source_url": "http://coxsbazar.gov.bd/",
+      "source_type": "official tourism",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "হিমছড়ি ঝরনা",
+      "place_latin": "Himchari Waterfall",
+      "category": "waterfall",
+      "short_reason_bn": "হিমছড়ি জাতীয় উদ্যানের ছোট ঝরনা ও সিঁড়িবেয়ে দেখা যায় এমন উপ-আকর্ষণ।",
+      "approximate_lat": 21.333,
+      "approximate_lng": 91.957,
+      "source_url": "https://beautifulbangladesh.gov.bd/cat/green-zone/17",
+      "source_type": "official tourism",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "বাঘোনা পাস ঝরনা",
+      "place_latin": "Baghona Pass Waterfall",
+      "category": "waterfall",
+      "short_reason_bn": "টেকনাফের পাহাড়ি বর্ষামুখর ঝরনা; ভ্রমণগাইডে সতর্কতাসহ তালিকাভুক্ত।",
+      "approximate_lat": 20.96,
+      "approximate_lng": 92.22,
+      "source_url": "https://sharetrip.net/travel-guide/post/places-to-visit-in-coxs-bazar",
+      "source_type": "reputable travel/news",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "দরিয়ানগর গুহা/কানা রাজার গুহা",
+      "place_latin": "Darianagar Cave",
+      "category": "cave/natural attraction",
+      "short_reason_bn": "কোলাতলী–হিমছড়ি সড়কের নামযুক্ত গুহা-ভ্রমণ আকর্ষণ।",
+      "approximate_lat": 21.37,
+      "approximate_lng": 91.99,
+      "source_url": "https://sharetrip.net/travel-guide/post/places-to-visit-in-coxs-bazar",
+      "source_type": "reputable travel/news",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "মিনি বান্দরবান",
+      "place_latin": "Mini Bandarban",
+      "category": "hill/viewpoint",
+      "short_reason_bn": "পেচারদ্বীপ–ইনানীর মাঝের নামযুক্ত পাহাড়ি ভিউ/ট্রেইল এলাকা।",
+      "approximate_lat": 21.155,
+      "approximate_lng": 92.04,
+      "source_url": "https://sharetrip.net/travel-guide/post/places-to-visit-in-coxs-bazar",
+      "source_type": "reputable travel/news",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "হলিউড হিল",
+      "place_latin": "Hollywood Hill",
+      "category": "hill/viewpoint",
+      "short_reason_bn": "টেকনাফ মেরিন ড্রাইভের প্যানোরামিক পাহাড়ি ভিউপয়েন্ট।",
+      "approximate_lat": 20.9,
+      "approximate_lng": 92.29,
+      "source_url": "https://www.thedailystar.net/weekend-read/news/exploring-the-wonders-around-coxs-bazar-3869126",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "কক্সবাজার–টেকনাফ মেরিন ড্রাইভ",
+      "place_latin": "Marine Drive Road",
+      "category": "scenic drive",
+      "short_reason_bn": "সমুদ্র ও পাহাড়ের মাঝের প্রায় ৮০–৮৫ কিমি দৃশ্যপথ; বহু উপ-আকর্ষণের কমপ্লেক্স।",
+      "approximate_lat": 21.25,
+      "approximate_lng": 92.06,
+      "source_url": "https://www.thedailystar.net/weekend-read/news/exploring-the-wonders-around-coxs-bazar-3869126",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "সাবরাং জিরো পয়েন্ট",
+      "place_latin": "Subrang Zero Point",
+      "category": "viewpoint/public attraction",
+      "short_reason_bn": "মেরিন ড্রাইভের দক্ষিণ প্রান্তের সীমান্ত-দৃশ্য ও ফটোস্টপ।",
+      "approximate_lat": 20.875,
+      "approximate_lng": 92.3,
+      "source_url": "https://vromonguide.com/place/ramu-buddhist-bihar",
+      "source_type": "travel guide/public listing",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "সাবরাং সাম্পান পয়েন্ট",
+      "place_latin": "Sabran Sampan Point",
+      "category": "riverside/ghat",
+      "short_reason_bn": "সারিবদ্ধ সাম্পান ও উপকূলীয় দৃশ্যের নামযুক্ত স্টপ।",
+      "approximate_lat": 20.81,
+      "approximate_lng": 92.31,
+      "source_url": "https://vromonguide.com/place/ramu-buddhist-bihar",
+      "source_type": "travel guide/public listing",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "কুতুবদিয়া বাতিঘর",
+      "place_latin": "Kutubdia Lighthouse",
+      "category": "lighthouse/heritage",
+      "short_reason_bn": "সরকারি উপজেলা পর্যটন তালিকায় থাকা দ্বীপের ঐতিহাসিক নৌ-নির্দেশক স্থাপনা।",
+      "approximate_lat": 21.81,
+      "approximate_lng": 91.85,
+      "source_url": "http://kutubdia.coxsbazar.gov.bd/pages/tourist-spot",
+      "source_type": "official tourism",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "কুতুবদিয়া বায়ু বিদ্যুৎ প্রকল্প",
+      "place_latin": "Kutubdia Wind Power Project",
+      "category": "public attraction/energy heritage",
+      "short_reason_bn": "সরকারি উপজেলা পর্যটন তালিকায় থাকা বায়ু বিদ্যুৎ প্রকল্প ও ল্যান্ডমার্ক।",
+      "approximate_lat": 21.805,
+      "approximate_lng": 91.86,
+      "source_url": "http://kutubdia.coxsbazar.gov.bd/pages/tourist-spot",
+      "source_type": "official tourism",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "চৌফলদণ্ডী বায়ু কল এলাকা",
+      "place_latin": "Chawfaldandi Windmills",
+      "category": "public attraction/energy",
+      "short_reason_bn": "বাতাসকল ও লবণচাষের দৃশ্যের জন্য ভ্রমণ প্রতিবেদনে দর্শনীয় এলাকা হিসেবে বর্ণিত।",
+      "approximate_lat": 21.55,
+      "approximate_lng": 91.995,
+      "source_url": "https://www.thedailystar.net/weekend-read/news/exploring-the-wonders-around-coxs-bazar-3869126",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "মাথিনের কূপ",
+      "place_latin": "Mathins Well",
+      "category": "heritage site",
+      "short_reason_bn": "টেকনাফ থানার ভেতরের ঐতিহাসিক কূপ, স্থানীয় প্রেমকাহিনির সঙ্গে যুক্ত ও পর্যটক-পরিদর্শিত।",
+      "approximate_lat": 20.87,
+      "approximate_lng": 92.3,
+      "source_url": "https://www.thedailystar.net/lifestyle/travelogue/visit-shah-porir-island-and-netong-monsoon-where-the-ocean-rivers-forests-and",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "আলী আকবরের ডেইল",
+      "place_latin": "Ali Akbars Dell",
+      "category": "coastal landscape",
+      "short_reason_bn": "কুতুবদিয়ার নামযুক্ত উপকূলীয় এলাকা; দ্বীপের পর্যটন গাইডে দর্শনীয়।",
+      "approximate_lat": 21.79,
+      "approximate_lng": 91.87,
+      "source_url": "https://adarbepari.com/location/coxsbazar/page/2",
+      "source_type": "travel guide/public listing",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "নেতং",
+      "place_latin": "Netong",
+      "category": "riverside/scenic area",
+      "short_reason_bn": "টেকনাফের বন, পাহাড়, নাফ নদী ও সেন্টমার্টিন ফেরিঘাট-সংলগ্ন পর্যটন এলাকা।",
+      "approximate_lat": 20.85,
+      "approximate_lng": 92.29,
+      "source_url": "https://www.thedailystar.net/lifestyle/travelogue/visit-shah-porir-island-and-netong-monsoon-where-the-ocean-rivers-forests-and",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "হিমছড়ি জাতীয় উদ্যান",
+      "place_latin": "Himchari National Park",
+      "category": "national park",
+      "short_reason_bn": "সরকারি পর্যটন বোর্ড অনুযায়ী ১,৭২৯ হেক্টর সংরক্ষিত মিশ্র চিরহরিৎ বন; পাহাড়, ভিউ ও ঝরনা আছে।",
+      "approximate_lat": 21.325,
+      "approximate_lng": 91.96,
+      "source_url": "https://beautifulbangladesh.gov.bd/cat/green-zone/17",
+      "source_type": "official tourism",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "টেকনাফ বন্যপ্রাণী অভয়ারণ্য",
+      "place_latin": "Teknaf Wildlife Sanctuary",
+      "category": "wildlife sanctuary",
+      "short_reason_bn": "টেকনাফের সংরক্ষিত বন ও জীববৈচিত্র্য এলাকা; টেকনাফ পর্যটন GIS বর্ণনায় সংলগ্ন আকর্ষণ।",
+      "approximate_lat": 20.98,
+      "approximate_lng": 92.245,
+      "source_url": "https://gis.beautifulbangladesh.gov.bd/spot/teknaf-sea-beach",
+      "source_type": "official tourism",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "ফাঁসিয়াখালী বন্যপ্রাণী অভয়ারণ্য",
+      "place_latin": "Fashiakhali Wildlife Sanctuary",
+      "category": "wildlife sanctuary",
+      "short_reason_bn": "চকরিয়া অঞ্চলের বন বিভাগের সুরক্ষিত বনাঞ্চল; সংরক্ষণ ও প্রকৃতি-ভিত্তিক দর্শনের স্থান।",
+      "approximate_lat": 21.7,
+      "approximate_lng": 92.0,
+      "source_url": "https://beautifulbangladesh.gov.bd/cat/green-zone/17",
+      "source_type": "official tourism",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "মেধা কচ্ছপিয়া জাতীয় উদ্যান",
+      "place_latin": "Medha Kachhapia National Park",
+      "category": "national park",
+      "short_reason_bn": "চকরিয়ার সংরক্ষিত উদ্যান; বন ও ইকো-ট্যুরিজম সম্ভাবনা নিয়ে সংবাদ প্রতিবেদন আছে।",
+      "approximate_lat": 21.75,
+      "approximate_lng": 92.06,
+      "source_url": "https://www.bd-journal.com/bangladesh/250980/%E0%A6%AE%E0%A7%87%E0%A6%A7%E0%A6%BE%E0%A6%95%E0%A6%9B%E0%A6%AA%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE-%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8-%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%টনে%E0%A6র-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%A8%E0%A6%BE",
+      "source_type": "travel guide/public listing",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "দুলাহাজারা সাফারি পার্ক",
+      "place_latin": "Dulahazara Safari Park",
+      "category": "safari park/zoo",
+      "short_reason_bn": "চকরিয়ার বৃহৎ বন্যপ্রাণী পার্ক; ১৬৫ প্রজাতির প্রাণী ও গাইডেড ভিজিটর অভিজ্ঞতা।",
+      "approximate_lat": 21.6,
+      "approximate_lng": 92.035,
+      "source_url": "https://sharetrip.net/travel-guide/post/places-to-visit-in-coxs-bazar",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "রামু রাবার বাগান",
+      "place_latin": "Ramu Rubber Garden",
+      "category": "garden/plantation attraction",
+      "short_reason_bn": "চট্টগ্রাম–কক্সবাজার সড়কের রাবার বাগান ও বিশ্রামস্থল; সরকারি পর্যটন পেজেও উল্লেখিত।",
+      "approximate_lat": 21.46,
+      "approximate_lng": 92.0,
+      "source_url": "https://beautifulbangladesh.gov.bd/cat/landmarks/21",
+      "source_type": "official tourism",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "রামু নারিকেল বাগান",
+      "place_latin": "Ramu Coconut Garden",
+      "category": "garden/plantation attraction",
+      "short_reason_bn": "রামুর বৃহৎ নারিকেল বাগান; Beautiful Bangladesh-এ দর্শনীয় প্রাকৃতিক আকর্ষণ।",
+      "approximate_lat": 21.445,
+      "approximate_lng": 92.0,
+      "source_url": "https://beautifulbangladesh.gov.bd/cat/landmarks/21",
+      "source_type": "official tourism",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "রামু বোটানিক্যাল গার্ডেন",
+      "place_latin": "Ramu Botanical Garden",
+      "category": "botanical garden",
+      "short_reason_bn": "পর্যটক/শিক্ষার্থী বিনোদনের জন্য স্থাপিত বাগান; বর্তমানে অব্যবস্থাপনা ও নাজুক অবস্থার সতর্কতা।",
+      "approximate_lat": 21.5,
+      "approximate_lng": 92.0,
+      "source_url": "https://thefinancialexpress.com.bd/home/ramu-botanical-garden-in-a-shambles-1644997757",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "নিভৃতে নিসর্গ পার্ক",
+      "place_latin": "Nivrite Nishorgo Park",
+      "category": "park/picnic spot",
+      "short_reason_bn": "রামু এলাকার পাহাড়, জলরাশি ও মেঘের সমন্বিত নামযুক্ত প্রকৃতি-পার্ক।",
+      "approximate_lat": 21.24,
+      "approximate_lng": 92.02,
+      "source_url": "https://vromonguide.com/location/coxsbazar",
+      "source_type": "travel guide/public listing",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "সী পার্ল ওয়াটার পার্ক",
+      "place_latin": "Sea Pearl Water Park",
+      "category": "water/amusement park",
+      "short_reason_bn": "ইনানীর টিকিটভিত্তিক জলবিনোদন পার্ক; স্লাইড, ওয়েভ পুল ও ফ্যামিলি রাইডের পাবলিক লিস্টিং।",
+      "approximate_lat": 21.19,
+      "approximate_lng": 92.055,
+      "source_url": "https://vromonguide.com/place/radiant-fish-world",
+      "source_type": "travel guide/public listing",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "রেডিয়েন্ট ফিশ ওয়ার্ল্ড",
+      "place_latin": "Radiant Fish World",
+      "category": "aquarium/museum/recreation",
+      "short_reason_bn": "ঝাউতলার টিকিটভিত্তিক পাবলিক অ্যাকোয়ারিয়াম কমপ্লেক্স; অফিসিয়াল সাইটে দৈনিক দর্শনার্থী প্রবেশ ও উপ-আকর্ষণ নিশ্চিত।",
+      "approximate_lat": 21.43,
+      "approximate_lng": 92.0,
+      "source_url": "https://radiantfishworldrfw.com/terms-conditions/",
+      "source_type": "travel guide/public listing",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "আদিনাথ মন্দির",
+      "place_latin": "Adinath Temple",
+      "category": "temple/heritage",
+      "short_reason_bn": "মহেশখালীর মৈনাক পাহাড়ের চূড়ার ঐতিহাসিক হিন্দু তীর্থ ও ভিউপয়েন্ট।",
+      "approximate_lat": 21.49,
+      "approximate_lng": 91.96,
+      "source_url": "https://bangla.thedailystar.net/life-living/travel/news-557616",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "রাংকূট বনাশ্রম বৌদ্ধ বিহার",
+      "place_latin": "Rangkut Bonashram Buddhist Vihara",
+      "category": "Buddhist monastery/heritage",
+      "short_reason_bn": "রামুর প্রাচীন বৌদ্ধ বিহার; Beautiful Bangladesh ও ভ্রমণগাইডে প্রধান দর্শনীয় স্থান।",
+      "approximate_lat": 21.42,
+      "approximate_lng": 92.005,
+      "source_url": "https://beautifulbangladesh.gov.bd/cat/landmarks/21",
+      "source_type": "official tourism",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "রামু কেন্দ্রীয় সীমা বিহার",
+      "place_latin": "Ramu Central Seema Vihara",
+      "category": "Buddhist monastery/heritage",
+      "short_reason_bn": "রামুর কেন্দ্রীয় বৌদ্ধ বিহার; ভ্রমণগাইডে পৃথক নামযুক্ত দর্শনীয় স্থান।",
+      "approximate_lat": 21.435,
+      "approximate_lng": 92.015,
+      "source_url": "https://vromonguide.com/place/ramu-buddhist-bihar",
+      "source_type": "travel guide/public listing",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "লামারপাড়া বৌদ্ধ বিহার",
+      "place_latin": "Lamarpara Buddhist Vihara",
+      "category": "Buddhist monastery/heritage",
+      "short_reason_bn": "রামুর নামযুক্ত ঐতিহ্যবাহী বৌদ্ধ বিহার।",
+      "approximate_lat": 21.42,
+      "approximate_lng": 92.01,
+      "source_url": "https://vromonguide.com/place/ramu-buddhist-bihar",
+      "source_type": "travel guide/public listing",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "উত্তর মিঠাছড়ি ১০০ ফুট শায়িত বুদ্ধ",
+      "place_latin": "100-foot Reclining Buddha, North Mithachhari",
+      "category": "Buddhist statue/temple",
+      "short_reason_bn": "ভিমুক্তি বিবেশণ ভাবনা কেন্দ্রের ১০০ ফুট শায়িত বুদ্ধ; রামুর প্রধান দর্শনীয় আকর্ষণ।",
+      "approximate_lat": 21.405,
+      "approximate_lng": 92.03,
+      "source_url": "https://beautifulbangladesh.gov.bd/cat/landmarks/21",
+      "source_type": "official tourism",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "লালচিং বৌদ্ধ বিহার",
+      "place_latin": "Lalching Buddhist Vihara",
+      "category": "Buddhist monastery/heritage",
+      "short_reason_bn": "রামুর আশপাশের নামযুক্ত বৌদ্ধ বিহার; ভ্রমণগাইডে পৃথকভাবে উল্লেখিত।",
+      "approximate_lat": 21.415,
+      "approximate_lng": 92.015,
+      "source_url": "https://vromonguide.com/place/ramu-buddhist-bihar",
+      "source_type": "travel guide/public listing",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "সাদাচিং বৌদ্ধ বিহার",
+      "place_latin": "Sadaching Buddhist Vihara",
+      "category": "Buddhist monastery/heritage",
+      "short_reason_bn": "রামুর আশপাশের নামযুক্ত বৌদ্ধ বিহার; ভ্রমণগাইডে পৃথকভাবে উল্লেখিত।",
+      "approximate_lat": 21.417,
+      "approximate_lng": 92.017,
+      "source_url": "https://vromonguide.com/place/ramu-buddhist-bihar",
+      "source_type": "travel guide/public listing",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "শ্রীকুল পুরাতন বৌদ্ধ বিহার",
+      "place_latin": "Shreekul Old Buddhist Vihara",
+      "category": "Buddhist monastery/heritage",
+      "short_reason_bn": "রামুর পুরাতন বৌদ্ধ নিদর্শন; ভ্রমণগাইডে দর্শনীয় হিসেবে তালিকাভুক্ত।",
+      "approximate_lat": 21.44,
+      "approximate_lng": 92.04,
+      "source_url": "https://vromonguide.com/place/ramu-buddhist-bihar",
+      "source_type": "travel guide/public listing",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "উশাই চিং রাখাইন মন্দির",
+      "place_latin": "Ushai Ching Rakhine Temple",
+      "category": "temple/cultural heritage",
+      "short_reason_bn": "শতবর্ষী কাঠের রাখাইন মন্দির; ডেইলি স্টার ভ্রমণ প্রতিবেদনে দর্শনীয়।",
+      "approximate_lat": 21.455,
+      "approximate_lng": 91.985,
+      "source_url": "https://www.thedailystar.net/weekend-read/news/exploring-the-wonders-around-coxs-bazar-3869126",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "গোরকঘাটা রাখাইন বৌদ্ধ বিহার",
+      "place_latin": "Gorakghata Rakhine Buddhist Vihara",
+      "category": "Buddhist monastery/cultural heritage",
+      "short_reason_bn": "মহেশখালীর রাখাইনপাড়ার বিহার; তামার প্যাগোডা ও বুদ্ধমূর্তি পর্যটন আকর্ষণ।",
+      "approximate_lat": 21.485,
+      "approximate_lng": 91.965,
+      "source_url": "https://bangla.thedailystar.net/life-living/travel/news-557616",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "শ্রীশ্রী রামকুট তীর্থধাম",
+      "place_latin": "Ramkut Tirthadham",
+      "category": "temple/heritage",
+      "short_reason_bn": "রামুর নামযুক্ত ঐতিহাসিক ধর্মীয় স্থান, বৌদ্ধ-হিন্দু তীর্থ ঐতিহ্যের অংশ।",
+      "approximate_lat": 21.42,
+      "approximate_lng": 92.0,
+      "source_url": "https://vromonguide.com/place/ramu-buddhist-bihar",
+      "source_type": "travel guide/public listing",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "বাকখালী নদীর তীরের বৌদ্ধ মন্দির",
+      "place_latin": "Bakkhali Buddhist Temple",
+      "category": "Buddhist temple/cultural attraction",
+      "short_reason_bn": "বাকখালী/টাইগার খালের কাছে সুন্দর বৌদ্ধ মন্দির; সরকারি পর্যটন বর্ণনায় রামুর প্রধান আকর্ষণ।",
+      "approximate_lat": 21.45,
+      "approximate_lng": 92.015,
+      "source_url": "https://beautifulbangladesh.gov.bd/cat/landmarks/21",
+      "source_type": "official tourism",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "বদর মোকাম জামে মসজিদ",
+      "place_latin": "Badr Mokam Jame Mosque",
+      "category": "mosque/heritage",
+      "short_reason_bn": "কক্সবাজার শহরের ঐতিহাসিক মসজিদ; পাবলিক ট্রাভেল/ম্যাপ লিস্টিংয়ে দর্শনীয় ঐতিহ্য হিসেবে আছে।",
+      "approximate_lat": 21.425,
+      "approximate_lng": 91.995,
+      "source_url": "https://wanderlog.com/place/details/10224108/badar-mokam-jame-masjid",
+      "source_type": "travel guide/public listing",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "গোরকঘাটা জমিদারবাড়ী",
+      "place_latin": "Gorakghata Zamindar House",
+      "category": "heritage site",
+      "short_reason_bn": "মহেশখালী ভ্রমণ প্রতিবেদনে নামযুক্ত ঐতিহাসিক স্থাপনা।",
+      "approximate_lat": 21.48,
+      "approximate_lng": 91.965,
+      "source_url": "https://bangla.thedailystar.net/life-living/travel/news-557616",
+      "source_type": "reputable travel/news",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "রামু জাদি পাহাড়",
+      "place_latin": "Ramu Jadi Hills",
+      "category": "hill/cultural landscape",
+      "short_reason_bn": "রামুর বৌদ্ধ ঐতিহ্যবহুল পাহাড়ি দর্শন এলাকা; ডেইলি স্টার প্রতিবেদনে নামযুক্ত।",
+      "approximate_lat": 21.43,
+      "approximate_lng": 92.025,
+      "source_url": "https://www.thedailystar.net/weekend-read/news/exploring-the-wonders-around-coxs-bazar-3869126",
+      "source_type": "reputable travel/news",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "মহেশখালী শুটিং ব্রিজ",
+      "place_latin": "Maheshkhali Shooting Bridge",
+      "category": "bridge/viewpoint",
+      "short_reason_bn": "আদিনাথ এলাকার নান্দনিক সেতু; ঝাউবাগান ও চরপাড়া সৈকতে যাওয়ার পথ।",
+      "approximate_lat": 21.5,
+      "approximate_lng": 91.955,
+      "source_url": "https://bangla.thedailystar.net/life-living/travel/news-557616",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "মহেশখালী উপজেলা পরিষদ দীঘি",
+      "place_latin": "Upazila Parishad Dighi Maheshkhali",
+      "category": "lake/public attraction",
+      "short_reason_bn": "মহেশখালী ভ্রমণ প্রতিবেদনে দ্বীপের দেখার মতো নামযুক্ত জলাধার।",
+      "approximate_lat": 21.49,
+      "approximate_lng": 91.96,
+      "source_url": "https://bangla.thedailystar.net/life-living/travel/news-557616",
+      "source_type": "reputable travel/news",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "মহেশখালীর মুদির ছড়া ম্যাংগ্রোভ বন",
+      "place_latin": "Mudir Chhara Mangrove Forest",
+      "category": "mangrove/ecotourism",
+      "short_reason_bn": "মহেশখালী দ্বীপের নামযুক্ত ম্যাংগ্রোভ বন; ভ্রমণ প্রতিবেদনে দর্শনীয়।",
+      "approximate_lat": 21.5,
+      "approximate_lng": 91.95,
+      "source_url": "https://bangla.thedailystar.net/life-living/travel/news-557616",
+      "source_type": "reputable travel/news",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "কুতুব আউলিয়ার মাজার",
+      "place_latin": "Kutub Awliya Shrine",
+      "category": "shrine/religious heritage",
+      "short_reason_bn": "কুতুবদিয়া ভ্রমণগাইডে দ্বীপের দর্শনীয় ধর্মীয় স্থান হিসেবে নামযুক্ত।",
+      "approximate_lat": 21.79,
+      "approximate_lng": 91.87,
+      "source_url": "https://adarbepari.com/location/coxsbazar/page/2",
+      "source_type": "travel guide/public listing",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "কক্সবাজার বার্মিজ মার্কেট",
+      "place_latin": "Coxs Bazar Burmese Market",
+      "category": "market/cultural attraction",
+      "short_reason_bn": "শহরের পরিচিত পর্যটক-পরিদর্শিত বার্মিজ পণ্যের বাজার; ভ্রমণ প্রতিবেদনে আকর্ষণ হিসেবে উল্লেখিত।",
+      "approximate_lat": 21.43,
+      "approximate_lng": 91.995,
+      "source_url": "https://www.thedailystar.net/weekend-read/news/exploring-the-wonders-around-coxs-bazar-3869126",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "টেকনাফ বার্মিজ মার্কেট",
+      "place_latin": "Teknaf Burmese Market",
+      "category": "market/cultural attraction",
+      "short_reason_bn": "টেকনাফের পর্যটক-পরিদর্শিত সীমান্ত-বাজার; ডেইলি স্টার ভ্রমণ প্রতিবেদনে বর্ণিত।",
+      "approximate_lat": 20.87,
+      "approximate_lng": 92.3,
+      "source_url": "https://www.thedailystar.net/lifestyle/travelogue/visit-shah-porir-island-and-netong-monsoon-where-the-ocean-rivers-forests-and",
+      "source_type": "reputable travel/news",
+      "confidence": "high"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "কক্সবাজার শুঁটকি মাছের বাজার",
+      "place_latin": "Coxs Bazar Dry Fish Market",
+      "category": "market/cultural attraction",
+      "short_reason_bn": "শহরের পরিচিত শুঁটকি বাজার; পর্যটন প্রতিবেদনে স্থানীয় সংস্কৃতি ও দর্শনীয় অভিজ্ঞতার অংশ।",
+      "approximate_lat": 21.43,
+      "approximate_lng": 91.965,
+      "source_url": "https://www.thedailystar.net/weekend-read/news/exploring-the-wonders-around-coxs-bazar-3869126",
+      "source_type": "reputable travel/news",
+      "confidence": "medium"
+    },
+    {
+      "district_bn": "কক্সবাজার",
+      "place_bn": "মহেশখালী ১ নম্বর জেটি ঘাট",
+      "place_latin": "Maheshkhali Jetty No. 1",
+      "category": "riverside/ghat/cultural attraction",
+      "short_reason_bn": "দ্বীপে যাতায়াত, মিষ্টি পান ও নৌ-অভিজ্ঞতার প্রকাশ্য জেটি-স্টপ।",
+      "approximate_lat": null,
+      "approximate_lng": null,
+      "source_url": "https://bangla.thedailystar.net/life-living/travel/news-557616",
+      "source_type": "reputable travel/news",
+      "confidence": "medium"
+    }
+  ],
+  "sources": [
+    {
+      "url": "http://coxsbazar.gov.bd/",
+      "title": "কক্সবাজার জেলা প্রশাসন পোর্টাল",
+      "source_type": "official district portal",
+      "note": "পোর্টালের পর্যটন-বিষয়ক বিভাগ; এই গবেষণায় পোর্টাল কাঠামো ও জেলার সরকারি উৎস হিসেবে ব্যবহৃত।"
+    },
+    {
+      "url": "https://beautifulbangladesh.gov.bd/cat/spring/12",
+      "title": "Cox's Bazar — Beautiful Bangladesh",
+      "source_type": "official tourism",
+      "note": "বাংলাদেশ ট্যুরিজম বোর্ডের destination description."
+    },
+    {
+      "url": "https://beautifulbangladesh.gov.bd/cat/landmarks/21",
+      "title": "Ramu — Beautiful Bangladesh",
+      "source_type": "official tourism",
+      "note": "রামুর বিহার, ১০০ ফুট বুদ্ধ, নারিকেল ও রাবার বাগানের বর্ণনা।"
+    },
+    {
+      "url": "https://beautifulbangladesh.gov.bd/cat/green-zone/17",
+      "title": "Himchari National Park — Beautiful Bangladesh",
+      "source_type": "official tourism",
+      "note": "জাতীয় উদ্যানের অবস্থান, আয়তন, পাহাড়, ঝরনা ও ভিউ।"
+    },
+    {
+      "url": "http://kutubdia.coxsbazar.gov.bd/pages/tourist-spot",
+      "title": "পর্যটন স্পট — কুতুবদিয়া উপজেলা",
+      "source_type": "official upazila portal",
+      "note": "কুতুবদিয়া বাতিঘর ও বায়ু বিদ্যুৎ প্রকল্পের সরকারি তালিকা।"
+    },
+    {
+      "url": "https://vromonguide.com/location/coxsbazar",
+      "title": "কক্সবাজার জেলার দর্শনীয় স্থান — Vromonguide",
+      "source_type": "travel guide",
+      "note": "শহর, বিচ-পয়েন্ট, রামু, মহেশখালী, সোনাদিয়া, রেডিয়েন্ট ও পার্কের বিস্তৃত তালিকা।"
+    },
+    {
+      "url": "https://vromonguide.com/place/ramu-buddhist-bihar",
+      "title": "রামু বৌদ্ধ বিহার ভ্রমণ গাইড — Vromonguide",
+      "source_type": "travel guide",
+      "note": "রামুর নামযুক্ত বিহার ও ধর্মীয় স্থাপনা।"
+    },
+    {
+      "url": "https://www.thedailystar.net/weekend-read/news/exploring-the-wonders-around-coxs-bazar-3869126",
+      "title": "Exploring the wonders around Cox’s Bazar — The Daily Star",
+      "source_type": "reputable news/travel",
+      "note": "মেরিন ড্রাইভ, হিমছড়ি, রেজু, নাজিরারটেক, রামু, সাফারি পার্ক, সোনাদিয়া, মহেশখালী ও কুতুবদিয়া।"
+    },
+    {
+      "url": "https://bangla.thedailystar.net/life-living/travel/news-557616",
+      "title": "মহেশখালী ভ্রমণ — The Daily Star Bangla",
+      "source_type": "reputable news/travel",
+      "note": "আদিনাথ, সৈকত, রাখাইন বিহার, সেতু, ঘাট, জমিদারবাড়ি, ম্যাংগ্রোভ ও পার্শ্বদ্বীপ।"
+    },
+    {
+      "url": "https://www.thedailystar.net/lifestyle/travelogue/visit-shah-porir-island-and-netong-monsoon-where-the-ocean-rivers-forests-and",
+      "title": "Visit Shah Porir Island and Netong — The Daily Star",
+      "source_type": "reputable travel",
+      "note": "শাহপরীর দ্বীপ, নেতং, মাথিনের কূপ, টেকনাফ সৈকত, নাফ নদী ও বাজার।"
+    },
+    {
+      "url": "https://en.prothomalo.com/environment/teknaf-where-emerald-hills-meet-the-bluest-sea",
+      "title": "Teknaf, where emerald hills meet the bluest sea — Prothom Alo English",
+      "source_type": "reputable news",
+      "note": "টেকনাফ সৈকত, নাফ নদী, জেটি, শাহপরীর দ্বীপ, মেরিন ড্রাইভ ও সংরক্ষিত বন।"
+    },
+    {
+      "url": "https://sharetrip.net/travel-guide/post/places-to-visit-in-coxs-bazar",
+      "title": "12 Best Places to Visit in Cox’s Bazar — ShareTrip",
+      "source_type": "travel company guide",
+      "note": "মারিশ বনিয়া, মিনি বান্দরবান, দরিয়ানগর গুহা, বাঘোনা পাস, সোনাদিয়া, রামু, সাফারি পার্ক ও টেকনাফ।"
+    },
+    {
+      "url": "https://coxsbazarlife.com/patuartek-the-tranquil-coral-stone-beach-capturing-tourists-hearts/",
+      "title": "Patuartek: The tranquil coral-stone beach — Cox’s Bazar Life",
+      "source_type": "local reputable travel/news",
+      "note": "পাটোয়ারটেক সৈকতের অবস্থান ও visitor use."
+    },
+    {
+      "url": "https://radiantfishworldrfw.com/terms-conditions/",
+      "title": "Radiant Fish World Visitor Agreement",
+      "source_type": "official attraction website",
+      "note": "ঠিকানা, টিকিটভিত্তিক physical visit, aquarium exhibits ও দৈনিক খোলা থাকার তথ্য।"
+    },
+    {
+      "url": "https://thefinancialexpress.com.bd/home/ramu-botanical-garden-in-a-shambles-1644997757",
+      "title": "Ramu Botanical Garden in a shambles — The Financial Express",
+      "source_type": "reputable news",
+      "note": "বোটানিক্যাল গার্ডেনের প্রতিষ্ঠা, tourist/recreation use এবং বর্তমান নাজুক অবস্থা।"
+    },
+    {
+      "url": "https://adarbepari.com/location/coxsbazar/page/2",
+      "title": "কুতুবদিয়া দ্বীপ — Adarbepari",
+      "source_type": "travel guide",
+      "note": "কুতুবদিয়া সৈকত, বায়ু বিদ্যুৎ, বাতিঘর, আলী আকবরের ডেইল ও মাজারের তালিকা।"
+    },
+    {
+      "url": "https://gis.beautifulbangladesh.gov.bd/spot/teknaf-sea-beach",
+      "title": "Teknaf Sea Beach — Beautiful Bangladesh GIS",
+      "source_type": "official tourism GIS",
+      "note": "টেকনাফ সৈকত ও সংলগ্ন wildlife sanctuary-এর visitor description."
+    },
+    {
+      "url": "https://wanderlog.com/place/details/10224108/badar-mokam-jame-masjid",
+      "title": "Badar Mokam Jame Masjid — Wanderlog public listing",
+      "source_type": "map-indexed public listing",
+      "note": "মসজিদের public visitor listing; ঐতিহাসিক তারিখের দাবি এখানে ব্যবহার করা হয়নি।"
+    },
+    {
+      "url": "https://bfis.bforest.gov.bd/library/wp-content/uploads/2021/02/Atlas-Forest-Mamagement.pdf",
+      "title": "Forest Conservation and Management Atlas, Bangladesh Forest Department",
+      "source_type": "official Forest Department publication",
+      "note": "জাতীয় উদ্যান/ইকোপার্ক/বোটানিক্যাল গার্ডেন/বন্যপ্রাণী অভয়ারণ্য/সাফারি পার্কের শ্রেণি, Himchari-র ১,৭২৯ হেক্টর ও বনভিত্তিক visitor use."
+    }
+  ],
+  "excluded_or_uncertain": [
+    {
+      "name_bn": "উখিয়া ও টেকনাফের অনির্দিষ্ট পাহাড়ি গুহা/ঝরনা",
+      "reason": "নাম, নিরাপদ প্রবেশাধিকার ও নির্ভরযোগ্য স্থায়ী লিস্টিং না থাকায় পৃথক স্থান হিসেবে বাদ।"
+    },
+    {
+      "name_bn": "Naf Tourism Park ও Subrang Tourism Park (পরিকল্পিত প্রকল্প)",
+      "reason": "উৎসে নির্মাণাধীন/পরিকল্পিত বলা হয়েছে; বর্তমান visitor destination হিসেবে গণনা করা হয়নি।"
+    },
+    {
+      "name_bn": "সেন্ট মার্টিনে বর্তমান ভ্রমণ নিয়ম",
+      "reason": "দ্বীপটি কক্সবাজার জেলার visitor destination হলেও মৌসুমি ও সরকারি নিয়ন্ত্রণ/বন্ধের কারণে প্রবেশাধিকার পরিবর্তনশীল; আগাম প্রশাসনিক নির্দেশনা যাচাই দরকার।"
+    },
+    {
+      "name_bn": "রামুর ৩৫টি বৌদ্ধ মন্দির ও জাদি",
+      "reason": "গাইডে মোট সংখ্যা বলা হলেও প্রতিটির পৃথক নির্ভরযোগ্য নাম/ঠিকানা পাওয়া যায়নি; কেবল নামযুক্ত স্থানগুলো অন্তর্ভুক্ত।"
+    },
+    {
+      "name_bn": "হোটেল-নির্ভর রিসোর্ট, সাধারণ রেস্টুরেন্ট, ব্যক্তিগত সৈকত-প্রকল্প ও সাধারণ কলেজ ক্যাম্পাস",
+      "reason": "ব্যবহারকারীর নির্দেশনা অনুযায়ী visitor attraction হিসেবে পৃথক প্রমাণ না থাকায় বাদ; নামযুক্ত Maheshkhali Leadership University campus-ও তাই বাদ।"
+    },
+    {
+      "name_bn": "নিম্ন-নিশ্চয়তার অফবিট স্পট",
+      "reason": "Mini Bandarban, Baghona Pass, Nivrite Nishorgo, Maskaria Beel, কিছু স্থানীয় বিহার/বাজারের ক্ষেত্রে স্থায়ী সরকারি পেজ না পাওয়ায় confidence medium রাখা হয়েছে; মাঠপর্যায়ে status যাচাই করা ভালো।"
+    }
+  ],
+  "coverage_note": "প্রধান শহর, মেরিন ড্রাইভ ও টেকনাফ উপদ্বীপ, রামু, মহেশখালী, সোনাদিয়া, কুতুবদিয়া, চকরিয়া এবং দ্বীপ/সীমান্ত উপকূল কভার করা হয়েছে। একই ভৌগোলিক কমপ্লেক্সের স্পষ্ট নামযুক্ত উপ-আকর্ষণ আলাদা row রাখা হয়েছে এবং short_reason_bn-এ parent/complex সম্পর্ক উল্লেখ করা হয়েছে। স্থানাঙ্কগুলো approximate representative points; route, সৈকত, দ্বীপ ও sanctuary-র জন্য সীমানা নয়। Banglapedia, UNESCO ও প্রত্নতত্ত্ব সাইট-সার্চও করা হয়েছে; সেখানে কক্সবাজার জেলার জন্য অতিরিক্ত নির্ভরযোগ্য, বর্তমান visitor destination নিশ্চিত না হওয়ায় সেগুলোকে জোর করে যোগ করা হয়নি।"
+}
