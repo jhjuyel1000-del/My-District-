@@ -1,23 +1,36 @@
-# বাংলাদেশ ভ্রমণ ম্যাপ — Implementation Plan
+# আমার এলাকা — Implementation Plan
 
-## Product scope
-রেফারেন্সের মতো বাংলা, এক-পেজের ইন্টার‌্যাক্টিভ ভ্রমণ ম্যাপ: আমার ম্যাপ, বিশ্ব ম্যাপ, কোথায় ঘুরবেন, খেলা এবং ট্রিপ প্ল্যানার—সব সেকশন একই নেভিগেশন ও ভিজ্যুয়াল ভাষায় থাকবে। ব্যবহারকারী জেলা/দেশ নির্বাচন, থিম বদল, নাম ও ছবি যোগ, ম্যাপ রেন্ডার এবং PNG/JPG/PDF এক্সপোর্ট করতে পারবেন।
+## Product direction
 
-## Design direction
-- **Design movement:** editorial travel journal + soft neo-brutalist card UI; অফ-হোয়াইট কাগজ, ink-green, coral, mustard accent।
-- **Core principles:** (১) মানচিত্র আগে, (২) বাংলা কনটেন্টে স্বচ্ছতা, (৩) tactile chip/button interaction, (৪) ছোট স্ক্রিনেও এক-হাতে ব্যবহারযোগ্য।
-- **Color philosophy:** বাংলাদেশের সবুজ ও নদীর নীলকে base করা, coral/mustard দিয়ে action এবং selection highlight করা।
-- **Layout paradigm:** hero-led vertical journey; দুই-কলামের builder zone এবং section-based scroll navigation, জেনেরিক centered dashboard নয়।
-- **Signature elements:** dotted border, গোলাকার route-marker, offset shadow cards, map-grid overlays।
-- **Interaction:** selection-এ immediate visual feedback, section anchors, live counters, modal guide, quiz/puzzle score feedback।
-- **Animation:** hero fade/float, card hover lift, map pulse, selection pop; prefers-reduced-motion সম্মান করা।
-- **Typography:** Google Noto Sans Bengali / system sans; বড় condensed-style বাংলা headline, readable 16–18px body।
-- **Brand essence:** “নিজের ভ্রমণকে মানচিত্রে রেখে দেওয়ার বাংলা travel scrapbook”—ব্যক্তিগত, খেলাধুলাপূর্ণ, আবিষ্কারী।
-- **Voice:** “মানচিত্রে টিক দিন, স্মৃতিগুলো সাজিয়ে নিন।” / “আজ কোন জেলায় যাবেন?”
-- **Wordmark:** compass-pin glyph + “পথের খাতা” wordmark। Signature color: #0f7a5c।
+“আমার এলাকা” একটি বাংলা-first interactive social-card maker। User শুরুতেই দুটি mode পাবে: **আমার এলাকা** এবং **আমার সম্পর্কে**। Mode বদলালে question set, result title, stats, phrase এবং card narrative বদলাবে। Background visual হিসেবে বাংলাদেশের ৬৪ জেলার public vector map ব্যবহার হবে। User জেলা বেছে নিয়ে নিজের নাম/ছবি/উত্তর দিয়ে animated map-card তৈরি করবে এবং PNG/JPG/PDF/share link পাবে।
 
-## Project structure
-- `client/src/App.tsx`: single-page app state, section navigation, selection, exports, quiz/puzzle and planner interactions.
-- `client/src/index.css`: responsive visual system, hero/map/card layout, animation and print styles.
-- `client/public/manus-routes.json`: `/` route declaration for WebDev.
-- `server/_core/index.ts`: existing health endpoint and Vite/production serving; no new API needed for local-first browser state.
+## Design system
+
+- **Design movement:** editorial cartography + warm digital scrapbook.
+- **Core principles:** map-first storytelling, playful self-expression, fast mobile creation, shareable reveal.
+- **Color philosophy:** deep river green anchors trust and place; coral marks personality; warm paper and mango yellow create memory and human warmth.
+- **Layout paradigm:** asymmetric editorial canvas; large map shapes and floating photo cards instead of a generic centered dashboard.
+- **Signature elements:** district boundary/map outline, postal-stamp style card metadata, landmark dots and dotted-route motifs.
+- **Interaction philosophy:** one-tap selection, short funny questions, progressive reveal, visible privacy choice, no forced account for the demo flow.
+- **Animation:** map/landmark reveal, soft hover lift, progress transitions and result-card reveal; motion stays short and functional.
+- **Typography:** Anek Bangla for Bengali display and UI hierarchy, with spacious uppercase micro-labels for the cartographic/editorial layer.
+- **Brand essence:** “Your map, your story”—for people who want to turn hometown identity or personality into a social object. Personality: warm, witty, rooted.
+- **Brand voice:** conversational, teasing, locally aware. Example lines: “আপনার map-এ আপনার গল্প।” and “একটু বসি—কিন্তু উঠি কালকে।”
+- **Wordmark/mark:** a rotated map-pin/flower star mark beside the Bengali wordmark.
+- **Signature color:** river green `#0d6b55`.
+
+## Implementation structure
+
+- `client/src/pages/Home.tsx`: homepage, mode selection, 64-district picker, mode-specific questions, image upload, result card, share/download actions.
+- `client/src/index.css`: responsive editorial/cartographic visual system and print rules.
+- `client/public/bd-map.json`: district vector geometry used by the interactive map card.
+- `client/public/manus-routes.json`: public route manifest.
+- `server/_core`: existing starter server and health route retained.
+
+## Map source/licensing decision
+
+The site uses the project’s existing district vector asset for the 64 districts and keeps public geographic attribution in the footer. A production release should replace/confirm the asset’s exact upstream license and add a dedicated attribution page before commercial publication. No copyrighted third-party artwork is copied into the card design.
+
+## Delivery behavior
+
+The current MVP is client-first: card preview is instant, user photo stays in-browser, share links encode the selected mode and district, PNG/JPG export is generated locally, and PDF uses the browser print layout. Public gallery, persistent accounts and server-side card storage remain planned follow-up capabilities.
